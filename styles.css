@@ -59,6 +59,11 @@ aside {
   margin: 20px 0;
 }
 
+/* article */
+article {
+  opacity: 0.7;
+}
+
 /* 底部样式 */
 footer {
   background: #333;
