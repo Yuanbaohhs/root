@@ -9,7 +9,7 @@
 
 /* 网页整体样式 */
 body {
-  background-image: url('dev_bg_cat.jpg');
+  background-image: url('dev_bg_cat.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -24,6 +24,7 @@ header {
   background-color: #333;
   color: #fff;
   padding: 20px 0;
+  alpha: 0.5;
   text-align: center;
 }
 
