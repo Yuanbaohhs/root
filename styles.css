@@ -32,12 +32,14 @@ header {
 nav {
   background: #555;
   color: #fff;
+  opacity: 0.7;
   padding: 15px 0;
 }
 
 /* 导航链接样式 */
 nav a {
   color: #fff;
+  opacity: 0.7;
   text-decoration: none;
   margin: 0 10px;
 }
@@ -45,6 +47,7 @@ nav a {
 /* 主要内容区域样式 */
 main {
   padding: 20px;
+  opacity: 0.7;
   background: #fff;
 }
 
