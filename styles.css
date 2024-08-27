@@ -55,6 +55,7 @@ main {
 aside {
   background: #e7e7e7;
   padding: 20px;
+  opacity: 0.7;
   margin: 20px 0;
 }
 
