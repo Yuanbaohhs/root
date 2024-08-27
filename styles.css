@@ -9,6 +9,10 @@
 
 /* 网页整体样式 */
 body {
+  background-image: url('html-res/background/x1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   color: #333;
