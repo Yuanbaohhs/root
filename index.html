@@ -7,6 +7,42 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles.css">
 	<title>My website</title>
+	<style>
+		.product-container {
+		    width: 100%;
+		    margin: 20%;
+		    overflow: hidden;
+		}
+		.product-item {
+		    width: 30%;
+		    float: left;
+		    margin: 1%;
+		    padding: 1%;
+		    box-sizing: border-box;
+		    border: 1px solid #ddd;
+		    border-radius: 5px;
+		}
+		.product-item img {
+		    width: 100%;
+		    height: auto;
+		    border-radius: 5px;
+		}
+		.product-info {
+		    text-align: center;
+		}
+		.product-name {
+		    font-size: 18px;
+		    color: #333;
+		}
+		.product-price {
+		    font-size: 16px;
+		    color: #e74c3c;
+		}
+		.product-description {
+		    font-size: 14px;
+		    color: #666;
+		}
+	</style>
 </head>
 
 <body>
@@ -22,7 +58,7 @@
 				<li><a href="https://github.com/Yuanbaohhs/root/tree/main">Github仓库</a></li>
 			</ul>
 		</nav>
-	</header> 
+	</header>
 	<main>
 		<article id="section1">
 			<h2>快速访问</h2>
@@ -49,17 +85,38 @@
 		</article>
 	</main>
 	<hr>
-	<aside>
-		<h3>获得相关信息</h3>
-		<p>QQ群聊</p>
-		<p> 主群 706394714 - 革命老区（满）</p>
-		<p> 二群 797581774 - 资源反馈二群（满）</p>
-		<p> 三群 942045535 - 资源反馈三群</p>
-		<p> 赞助群 953879510 - 革命老区前线（需认证）</p>
-	</aside>
-	<footer>
-		<p style="color: #ffdddd;">My Yuanbao    Version 0.2.2</p>
-	</footer>
+	<div class="product-container">
+		<!-- 商品1 -->
+		<div class="product-item">
+			<img src="image1.jpg" alt="0u0">
+			<div class="product-info">
+				<div class="product-name">0u0</div>
+				<div class="product-price">¥50.00</div>
+				<div class="product-description">系统默认好评</div>
+			</div>
+		</div>
+
+		<!-- 商品2 -->
+		<div class="product-item">
+			<img src="image2.jpg" alt="Quick 2">
+			<div class="product-info">
+				<div class="product-name">快速搬运授权</div>
+				<div class="product-price">¥40.00</div>
+				<div class="product-description">公益授权</div>
+			</div>
+		</div>
+		<aside>
+			<h3>获得相关信息</h3>
+			<p>QQ群聊</p>
+			<p> 主群 706394714 - 革命老区（满）</p>
+			<p> 二群 797581774 - 资源反馈二群（满）</p>
+			<p> 三群 942045535 - 资源反馈三群</p>
+			<p> 赞助群 953879510 - 革命老区前线（需认证）</p>
+		</aside>
+		<footer>
+			<p style="color: #ffdddd;">My Yuanbao Version 0.2.2</p>
+		</footer>
+
 </body>
 
 </html>
