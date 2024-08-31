@@ -19,6 +19,18 @@ body {
   line-height: 1.6;
 }
 
+/* 物品项目 */
+.product-item {
+  width: 120px;
+  height: 200px;
+  float: left;
+  margin: 1%;
+  padding: 1%;
+  box-sizing: border-box;
+  border: 5px solid #dddddd7b;
+  border-radius: 20px;
+}
+
 /* 头部样式 */
 header {
   background-color: #333;
