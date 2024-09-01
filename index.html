@@ -16,15 +16,36 @@
         }
 
         .product-item img {
-            width: 100px;
-            height: 100px;
+            width: 90px;
+            height: 90px;
             border-radius: 10px;
         }
 
         .product-name {
             text-align: center;
+            text-shadow: 4px 4px 10px #000000;
             font-size: 13px;
-            color: #333;
+            color: #ffffff;
+        }
+
+        /* 物品项目 */
+        .product-item {
+            width: 120px;
+            height: 200px;
+            float: left;
+            box-shadow:0px 5px 7px rgba(0,0,0,0.4);
+            transition: all 0.6s;
+            margin: 2%;
+            padding: 1%;
+            box-sizing: border-box;
+            background-color: rgba(149, 182, 195, 0.17);
+            border: 0px solid #dddddd2b;
+            border-radius: 20px;
+        }
+
+        .product-item:hover {
+            transform: translateY(-7px) scale(1.01,1.01);
+            box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
         }
 
         .product-root-logo {
@@ -34,6 +55,7 @@
         .product-price {
             font-size: 20px;
             text-align: center;
+            text-shadow: 4px 4px 10px #000000;
             color: #e74c3c;
         }
 
@@ -45,6 +67,11 @@
 
         .dom-s-description {
             color: #ffffffa2;
+            text-align: center;
+        }
+
+        .footer-dom {
+            width: 100%;
             text-align: center;
             border-radius: 20px;
             background-color: rgba(149, 182, 195, 0.368);
@@ -74,6 +101,7 @@
                 <li><a href="#">画廊</a></li>
                 <li><a href="#">快速帮助</a></li>
                 <li><a href="#">自定义</a></li>
+                <li><a href="#">基岩版测试服务器</a></li>
             </ul>
         </nav>
     </header>
@@ -115,9 +143,9 @@
         <p> 三群 942045535 - 资源反馈三群</p>
         <p> 内群 953879510 - 革命老区前线（需认证）</p>
     </aside>
-    <footer>
-        <p class="dom-s-description">My Yuanbao Version 0.2.5</p>
-    </footer>
+    <div class="footer-dom">
+        <p class="dom-s-description">My Yuanbao Version 0.2.6 bilibili@孤独的作者</p>
+    </div>
 
 </body>
 
