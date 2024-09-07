@@ -16,8 +16,8 @@
         }
 
         .product-item img {
-            width: 90px;
-            height: 90px;
+            width: 70px;
+            height: 70px;
             border-radius: 10px;
         }
 
@@ -57,7 +57,7 @@
             font-size: 20px;
             text-align: center;
             text-shadow: 4px 4px 10px #000000;
-            color: #e74c3c;
+            color: hsl(192, 100%, 92%);
         }
 
         .product-description {
@@ -81,8 +81,8 @@
             width: 94%;
             margin: 3%;
             padding: 5px;
-            background-color: rgba(149, 182, 195, 0.332);
-            border-radius: 20px;
+            background-color: rgba(149, 182, 195, 0.609);
+            border-radius: 30px;
             box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.4);
             backdrop-filter: blur(10px);
             transition: all 0.6s;
@@ -92,16 +92,20 @@
             transform: translateY(-7px) scale(1.01, 1.01);
             box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
         }
+
+        .minfontsize {
+            font-size: 20px;
+        }
     </style>
 </head>
 
 <body>
     <script src="script.js"></script>
 
-    <h1 style="color: #6fbcff;">Biomimetic pixel</h1>
+    <h1 style="color: #6fbcff;font-size: 60px" ;>Biomimetic pixel</h1>
     <div>
-        <nav class="glass">
-            <ul>
+        <nav>
+            <ul class="minfontsize">
                 <p><a class="glass" href="https://afdian.com/a/yuanbao_hhs_00067">爱发电主页</a></p>
                 <p><a class="glass" href="https://space.bilibili.com/510844404">b站主页</a></p>
                 <p><a class="glass" href="https://youtube.com/@yuanbao-hhs?si=sVFOkZ5AbxYdNGxq">YouTube主页</a></p>
@@ -146,23 +150,16 @@
                 <div class="product-description"><a href="https://afdian.com/a/yuanbao_hhs_00067/plan">去爱发电</a></div>
             </div>
         </div>
-        <!-- 商品4 -->
-        <div class="product-item">
-            <img src="html-res/0u0_icon.png" alt="加载失败">
-            <div class="product-info">
-                <div class="product-name">筱筱</div>
-                <div class="product-price">900¥/天</div>
-                <div class="product-description"><a href="https://afdian.com/a/yuanbao_hhs_00067/plan">仅剩一件</a></div>
-            </div>
-        </div>
     </div>
     <div class="glass">
-        <h3 style="color: #c4e4ff;">获得相关信息</h3>
-        <p style="color: #6fbcff;">QQ群聊</p>
-        <p style="color: #6fbcff;"> 主群 706394714 - 革命老区（满）</p>
-        <p style="color: #6fbcff;"> 二群 797581774 - 资源反馈二群（满）</p>
-        <p style="color: #6fbcff;"> 三群 942045535 - 资源反馈三群</p>
-        <p style="color: #6fbcff;"> 内群 953879510 - 革命老区前线（需认证）</p>
+        <div style="font-size: 15px;">
+            <h3 style="color: #c4e4ff;">获得相关信息</h3>
+            <p style="color: #6fbcff;">QQ群聊</p>
+            <p style="color: #6fbcff;"> 主群 706394714 - 革命老区（满）</p>
+            <p style="color: #6fbcff;"> 二群 797581774 - 资源反馈二群（满）</p>
+            <p style="color: #6fbcff;"> 三群 942045535 - 资源反馈三群</p>
+            <p style="color: #6fbcff;"> 内群 953879510 - 革命老区前线（需认证）</p>
+        </div>
     </div>
     <div class="glass">
         <p style="color: #c4e4ff;font-size: small;">My Yuanbao Version 0.2.6 bilibili@孤独的作者</p>
