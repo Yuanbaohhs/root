@@ -5,9 +5,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatle" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="def.css">
-    <title>快速搬运</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Biomimetic pixel</title>
     <style>
+        .product-container {
+            width: 100%;
+            margin: 0%;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .product-item img {
+            width: 70px;
+            height: 70px;
+            border-radius: 10px;
+        }
+
+        .product-name {
+            text-align: center;
+            text-shadow: 4px 4px 10px #000000;
+            font-size: 13px;
+            color: #ffffff;
+        }
+
+        /* 物品项目 */
+        .product-item {
+            width: 100px;
+            height: 180px;
+            float: left;
+            box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.4);
+            transition: all 0.6s;
+            margin: 10px;
+            padding: 1%;
+            box-sizing: border-box;
+            background-color: rgba(149, 182, 195, 0.17);
+            border: 0px solid #dddddd2b;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .product-item:hover {
+            transform: translateY(-7px) scale(1.01, 1.01);
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .product-root-logo {
+            text-align: center;
+        }
+
+        .product-price {
+            font-size: 20px;
+            text-align: center;
+            text-shadow: 4px 4px 10px #000000;
+            color: hsl(192, 100%, 92%);
+        }
+
+        .product-description {
+            text-align: center;
+            font-size: 10px;
+            color: #38390d;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            position: relative;
+            width: 700px;
+            background-color: #000000;
+            filter: contrast(50);
+            height: 300px;
+        }
+
         .glass {
             text-align: center;
             width: 94%;
@@ -31,22 +99,57 @@
     </style>
 </head>
 
-<body >
+<body>
     <script src="script.js"></script>
 
-    <h1 style="color: #6fbcff;font-size: 60px;" ;>快速搬运 v9</h1>
+    <h1 style="color: #6fbcff;font-size: 60px;" ;>Biomimetic pixel</h1>
     <div>
         <nav>
             <ul class="minfontsize">
-                <p><a class="glass">1.修复已知问题</a></p>
-                <p><a class="glass">2.搜索功能改为精确id匹配</a></p>
-                <p><a class="glass">3.添加反向搜索功能</a></p>
-                <p><a class="glass">4.ui 调整，贴合原版</a></p>
-                <p><a class="glass">5.优化三个切换按钮</a></p>
-                <p><a class="glass">6.启用搜索功能会显示id</a></p>
-                <p><a class="glass">7.覆盖到更多界面</a></p>
+                <p><a class="glass" href="https://afdian.com/a/yuanbao_hhs_00067">爱发电主页</a></p>
+                <p><a class="glass" href="https://space.bilibili.com/510844404">b站主页</a></p>
+                <p><a class="glass" href="https://youtube.com/@yuanbao-hhs?si=sVFOkZ5AbxYdNGxq">YouTube主页</a></p>
+                <p><a class="glass" href="https://github.com/Yuanbaohhs/root/tree/main">Github仓库</a></p>
+                <p><a class="glass" href="https://qm.qq.com/q/1KCe5w5G5a">作者</a></p>
+                <p><a class="glass" href="https://yuanbaohhs.github.io/root/index-res-list.html">资源列表</a></p>
+                <p><a class="glass" href="#">制作团队</a></p>
+                <p><a class="glass" href="#">资源版权，授权</a></p>
+                <p><a class="glass" href="#">画廊</a></p>
+                <p><a class="glass" href="#">快速帮助</a></p>
+                <p><a class="glass" href="#">自定义</a></p>
+                <p><a class="glass" href="#">基岩版测试服务器</a></p>
             </ul>
         </nav>
+    </div>
+
+    <div class="product-container">
+        <!-- 商品1 -->
+        <div class="product-item">
+            <img src="html-res/fengye_pack_icon.png" alt="加载失败">
+            <div class="product-info">
+                <div class="product-name">赞助</div>
+                <div class="product-price">6.00¥</div>
+                <div class="product-description"><a href="https://afdian.com/a/yuanbao_hhs_00067/plan">去爱发电</a></div>
+            </div>
+        </div>
+        <!-- 商品2 -->
+        <div class="product-item">
+            <img src="html-res/box_preview_icon.png" alt="加载失败">
+            <div class="product-info">
+                <div class="product-name">潜影盒预览</div>
+                <div class="product-price">1290.00¥</div>
+                <div class="product-description">无货</div>
+            </div>
+        </div>
+        <!-- 商品3 -->
+        <div class="product-item">
+            <img src="html-res/csb_faq_parrot_icon.png" alt="加载失败">
+            <div class="product-info">
+                <div class="product-name">快速搬运授权</div>
+                <div class="product-price">40.00¥</div>
+                <div class="product-description"><a href="https://afdian.com/a/yuanbao_hhs_00067/plan">去爱发电</a></div>
+            </div>
+        </div>
     </div>
     <div class="glass">
         <div style="font-size: 15px;">
