@@ -2,57 +2,231 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>资源包列表</title>
-    <style>
-
-        .glass {
-            text-align: center;
-            width: 94%;
-            margin: 3%;
-            padding: 5px;
-            background-color: rgba(149, 182, 195, 0.332);
-            border-radius: 20px;
-            box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.4);
-            backdrop-filter: blur(10px);
-            transition: all 0.6s;
-        }
-
-        .glass:hover {
-            transform: translateY(-7px) scale(1.01, 1.01);
-            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
-        }
-    </style>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatle" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>资源列表</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Quicksand&dispaly=swap');
+		
+		body {
+		    font-family: 'Quicksand', sans-serif;
+		    background-color: #0f2232;
+		}
+		
+		.title-text {
+		    background-color: rgba(178, 178, 178, 0.3);
+		}
+		
+		.top-text {
+		    color: #e4f2ff;
+		    background-color: rgba(178, 178, 178, 0.3);
+		}
+		
+		.contont-text {
+		    color: #e4f2ff8a;
+		}
+		
+		.item-mcpack {
+		    display: flex;
+		    height: 90px;
+		    background-color: rgba(178, 178, 178, 0.3);
+		}
+		
+		.item-icon {
+		    margin: 10px;
+		    height: 80px;
+		    width: 80px;
+		}
+	</style>
 </head>
-
 <body>
-    <div class="glass">
-        <article>
-            <h2>快速访问</h2>
-            <p>资源列表</p>
-            <p><a href="https://yuanbaohhs.github.io/root/html-mcpack/quick-handling.html">UI - 快速搬运</a>
-            </p>
-            <p><a href="https://yuanbaohhs.github.io/root/html-mcpack/quick-setting.html">UI - 快速切换视角</a></p>
-            <p><a href="https://yuanbaohhs.github.io/root/html-mcpack/move_ui.html">UI - 背包移动</a></p>
-            <p>UI - 快速交易 New</p>
-            <p>UI - 快速合成 New</p>
-            <p>UI - 箱子功能切换 New</p>
-            <p>UI - 药水效果界面优化 New</p>
-            <p>UI - 调试UI v6.0</p>
-            <p>UI - 工具箱UI v7.0</p>
-            <p>UI - 专注局内操作UI v3.2</p>
-            <p>UI - Chat增强 v2.0</p>
-            <p>UI - 显示背包物品 v2.0</p>
-            <p>UI - 字体修正 New</p>
-            <p>UI - 锁机资源包 v2.0</p>
-            <p>UI - 条件解除 New</p>
-            <p>UI - 资源包选项解除 New</p>
-            <p>UI - 仿生像素美化UI beta6</p>
-            <p>UI - 附件包 x6</p>
-        </article>
-    </div>
-</body>
+	<div>
+		<h1 class="top-text">资源列表</h1>
+	</div>
+	<div class="item-mcpack">
+		<img src="html-res/afadian-50.png" class="item-icon" alt="加载失败">
+		<div>
+			<h2 style="line-height: 1px; color: #e4f2ff;">赞助</h2>
+			<div style="line-height: 1px"></div>
+			<div>
+				<p class="contont-text">你的支持是更新的最大动力！感谢所有支持用户！ <a href="https://afdian.com/a/yuanbao_hhs_00067" target="_blank">爱发电主页</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="item-mcpack">
+		<img src="html-res/box_preview_icon.png" class="item-icon" alt="加载失败">
+		<div>
+			<h2 style="line-height: 1px;color: #e4f2ff;">潜影盒预览</h2>
+			<div style="line-height: 1px;"></div>
+			<p class="contont-text">图像化包，受保护的内容停止出售！ <a href="https://afdian.com/a/yuanbao_hhs_00067" target="_blank">无货</a></p>
+		</div>
+	</div>
+	<br>
+	<div class="item-mcpack">
+		<img src="html-res/csb_faq_parrot_icon.png" class="item-icon" alt="加载失败">
+		<div>
+			<div>
+				<h2 style="line-height: 1px; color: #e4f2ff;">快速搬运</h2>
+				<div style="line-height: 1px;"></div>
+				<p class="contont-text">快速搬运物品，MCPE首款支持快速物品操作。<a href="https://yuanbaohhs.github.io/root/html-mcpack/quick-handling.html" target="_blank">下载</a>or<a href="https://afdian.com/a/yuanbao_hhs_00067/plan"> 授权</a></p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="item-mcpack">
+		<img src="html-res/super_ui_icon.png" class="item-icon" alt="加载失败">
+		<div>
+			<div>
+				<h2 style="line-height: 1px; color: #e4f2ff;">快速搬运 PRO MAX</h2>
+				<div style="line-height: 1px;"></div>
+				<p class="contont-text">史上最强ui，整合超多强劲功能。<a href="#">测试中</a></p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="item-mcpack">
+		<img src="html-res/quick_setting_pack_icon.png" class="item-icon" alt="加载失败">
+		<div>
+			<h2 style="line-height: 1px; color: #e4f2ff;">快速切换视角</h2>
+			<div style="line-height: 1px;"></div>
+			<div>
+				<p class="contont-text">快速修改设置内容！ <a href="https://yuanbaohhs.github.io/root/html-mcpack/quick-setting.html" target="_blank">下载</a></p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="item-mcpack">
+		<img src="html-res/move_pack_icon.png" class="item-icon" alt="加载失败">
+		<div>
+			<h2 style="line-height: 1px; color: #e4f2ff;">背包移动</h2>
+			<div style="line-height: 1px;"></div>
+			<div>
+				<p class="contont-text">打开背包后仍可进行移动攻击放置方块操作！ <a href="https://yuanbaohhs.github.io/root/html-mcpack/move_ui.html" target="_blank">下载</a></p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="item-mcpack">
+		<img src="html-res/quick_make_icon.png" class="item-icon" alt="加载失败">
+		<div>
+			<h2 style="line-height: 1px; color: #e4f2ff;">快速合成</h2>
+			<div style="line-height: 1px;"></div>
+			<div>
+				<p class="contont-text">附件包：超快的合成物品！拥有快速合成和一键合成功能！<a href="./html-mcpack/快速合成和一键合成.mcpack" target="_blank">下载</a></p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="item-mcpack">
+		<img src="html-res/quick_make_icon.png" class="item-icon" alt="加载失败">
+		<div>
+			<h2 style="line-height: 1px; color: #e4f2ff;">更好的药水效果UI</h2>
+			<div style="line-height: 1px;"></div>
+			<div>
+				<p class="contont-text">更好的药水效果UI，简单快捷。<a href="#" target="_blank">待上架</a></p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="item-mcpack">
+		<img src="html-res/quick_make_icon.png" class="item-icon" alt="加载失败">
+		<div>
+			<h2 style="line-height: 1px; color: #e4f2ff;">存档导出</h2>
+			<div style="line-height: 1px;"></div>
+			<div>
+				<p class="contont-text">可导出存档或者是导出存档模板，还可以修改版本号。<a href="#" target="_blank">待上架</a></p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="item-mcpack">
+		<img src="html-res/quick_make_icon.png" class="item-icon" alt="加载失败">
+		<div>
+			<h2 style="line-height: 1px; color: #e4f2ff;">动态水晶</h2>
+			<div style="line-height: 1px;"></div>
+			<div>
+				<p class="contont-text">手持3D水晶模型。<a href="#" target="_blank">待上架</a></p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="item-mcpack">
+		<img src="html-res/quick_make_icon.png" class="item-icon" alt="加载失败">
+		<div>
+			<h2 style="line-height: 1px; color: #e4f2ff;">快速交易</h2>
+			<div style="line-height: 1px;"></div>
+			<div>
+				<p class="contont-text">超快的一键交易，可强制交易未解锁项目。<a href="#" target="_blank">待上架</a></p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="item-mcpack">
+		<img src="html-res/quick_make_icon.png" class="item-icon" alt="加载失败">
+		<div>
+			<h2 style="line-height: 1px; color: #e4f2ff;">字体修正</h2>
+			<div style="line-height: 1px;"></div>
+			<div>
+				<p class="contont-text">和JAVA版一样的字体。<a href="#" target="_blank">待上架</a></p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="item-mcpack">
+		<img src="html-res/quick_make_icon.png" class="item-icon" alt="加载失败">
+		<div>
+			<h2 style="line-height: 1px; color: #e4f2ff;">UI选项解除</h2>
+			<div style="line-height: 1px;"></div>
+			<div>
+				<p class="contont-text">强制显示原版隐藏的UI，虽然绝大多数不能使用。<a href="#" target="_blank">待上架</a></p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="item-mcpack">
+		<img src="html-res/quick_make_icon.png" class="item-icon" alt="加载失败">
+		<div>
+			<h2 style="line-height: 1px; color: #e4f2ff;">工具箱UI</h2>
+			<div style="line-height: 1px;"></div>
+			<div>
+				<p class="contont-text">整合了一些功能。<a href="#" target="_blank">待上架</a></p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="item-mcpack">
+		<img src="html-res/quick_make_icon.png" class="item-icon" alt="加载失败">
+		<div>
+			<h2 style="line-height: 1px; color: #e4f2ff;">调试UI</h2>
+			<div style="line-height: 1px;"></div>
+			<div>
+				<p class="contont-text">调试UI，强制修改UI屏幕的效果。<a href="#" target="_blank">待上架</a></p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="item-mcpack">
+		<img src="html-res/fengye_pack_icon.png" class="item-icon" alt="加载失败">
+		<div>
+			<h2 style="line-height: 1px; color: #e4f2ff;">网易客户端</h2>
+			<div style="line-height: 1px;"></div>
+			<div>
+				<p class="contont-text">带有资源整合的客户端 <a href="#" target="_blank">待上架</a></p>
+			</div>
+		</div>
+	</div>
 
+	<div class="top-text">
+		<h2>加入群聊：</h2>
+		<div class="contont-text">
+			<h3>&nbsp; 主群 706394714 - 拥挤</h3>
+			<h3>&nbsp; 二群 797581774 - 拥挤</h3>
+			<h3>&nbsp; 三群 942045535 - 空闲</h3>
+			<h3>&nbsp; 内群 953879510 - 需要认证</h3>
+		</div>
+	</div>
+</body>
 </html>
