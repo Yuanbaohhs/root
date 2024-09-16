@@ -5,128 +5,146 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatle" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="def.css">
 	<title>快速搬运</title>
 	<style>
-		.glass {
-		    z-index: 100;
-		    text-align: center;
-		    width: 94%;
-		    margin: 3%;
-		    padding: 5px;
-		    background-color: rgba(149, 182, 195, 0.609);
-		    border-radius: 30px;
-		    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.4);
-		    backdrop-filter: blur(10px);
-		    transition: all 0.6s;
+		@import url('https://fonts.googleapis.com/css2?family=Quicksand&dispaly=swap');
+		
+		body {
+		    font-family: 'Quicksand', sans-serif;
+		    background-color: #0f2232;
 		}
 		
-		.glass:hover {
-		    transform: translateY(-7px) scale(1.01, 1.01);
-		    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+		.title-text {
+		    background-color: rgba(178, 178, 178, 0.3);
 		}
 		
-		.minfontsize {
-		    font-size: 20px;
+		.top-text {
+		    color: #e4f2ff;
+		    background-color: rgba(178, 178, 178, 0.3);
+		}
+		
+		.contont-text {
+		    color: #e4f2ff8a;
+		}
+		
+		.item-mcpack {
+		    display: flex;
+		    height: 90px;
+		    background-color: rgba(178, 178, 178, 0.3);
+		}
+		
+		.item-icon {
+		    margin: 10px;
+		    height: 80px;
+		    width: 80px;
 		}
 	</style>
 </head>
 
 <body>
-	<div class="glass-block">
-		<p>快速搬运 v9</p>
-	</div>
 	<div>
-		<div class="glass-text">
-			<a>1.修复已知问题</a>
-			<br>
-			<a>2.搜索功能改为精确id匹配</a>
-			<br>
-			<a>3.添加反向搜索功能</a>
-			<br>
-			<a>4.ui 调整，贴合原版</a>
-			<br>
-			<a>5.优化三个切换按钮</a>
-			<br>
-			<a>6.启用搜索功能会显示id</a>
-			<br>
-			<a>7.覆盖到更多界面</a>
-			<br>
-			<a>8.合并丢弃快捷栏和丢弃背包按钮</a>
-			<br>
-			<a>9.使用搜索过滤方法 _id_id_ (下划线 物品id 下滑线 循环)</a>
-			<br>
-			<a>bug - 1.21.0以下版本出现兼容性错误 (无法匹配到合成台UI)</a>
-			<br>
-			<a href="./快速搬运 v9.mcpack">下载 快速搬运 v9</a>
-			<br>
-			<br>
-			<a>1.轻量版极大改善卡顿问题</a>
-			<br>
-			<a>2.删除反选功能和箱子界面切换功能，和其他功能</a>
-			<br>
-			<a href="./快速搬运 v9 Lite.mcpack">下载 快速搬运 v9 轻量版</a>
-			<br>
-			<br>
-			<a>1.覆盖到更多界面</a>
-			<br>
-			<a>2.添加一键穿甲</a>
-			<br>
-			<a href="./快速搬运 v8.6.mcpack">下载 快速搬运 v8.6</a>
-			<br>
-			<br>
-			<a>1.重做UI，全方面优化</a>
-			<br>
-			<a>2.加入飞行物品检测</a>
-			<br>
-			<a href="./快速搬运 v8.2 轻量版.mcpack">下载 快速搬运 v8.2 轻量版</a>
-			<br>
-			<br>
-			<a>1.透明版UI</a>
-			<br>
-			<a>2.加入测试版一键整理</a>
-			<br>
-			<a href="./快速搬运 v7.4a.mcpack">下载 快速搬运 v7.4a</a>
-			<br>
-			<br>
-			<a>1.兼容性更强</a>
-			<br>
-			<a>2.优化UI</a>
-			<br>
-			<a href="./快速搬运 v6.4.mcpack">下载 快速搬运 v6.4</a>
-			<br>
-			<br>
-			<a>1.添加搜索功能</a>
-			<br>
-			<a href="./快速搬运 v5.mcpack">下载 快速搬运 v5</a>
-
-			<br>
-			<br>
-			<a>未知更新内容</a>
-			<br>
-			<a href="./快速搬运 v4.1.mcpack">下载 快速搬运 v4.1</a>
-			<br>
-			<br>
-			<a>未知更新内容</a>
-			<br>
-			<a href="./快速搬运 v3.mcpack">下载 快速搬运 v3</a>
-			<br>
-			<br>
-			<a>对UI进行调整</a>
-			<br>
-			<a href="./快速搬运 v2 精简版.mcpack">下载 快速搬运 v2 精简版</a>
-			<br>
-			<br>
-			<a>初代版本</a>
-			<br>
-			<a>从专注局内操作UI中独立</a>
-			<br>
-			<a href="./快速搬运 精简版.mcpack">下载 快速搬运 v1 精简版</a>
-			<br>
-			<a href="https://yuanbaohhs.github.io/root">返回首页</a>
+		<h1 class="top-text">快速搬运历史版本<a href="https://yuanbaohhs.github.io/root/" target="_blank">返回</a></h1>
+	</div>
+	<img src="/root/html-res/csb_faq_parrot_icon.png" class="item-icon" alt="加载失败">
+	<div class="top-text">
+		<h2>第九代 <a href="./快速搬运 v9.mcpack" target="_blank">下载</a></h2>
+		<div class="contont-text">
+			<h3>&nbsp; 1.修复已知问题</h3>
+			<h3>&nbsp; 2.搜索功能改为精确id匹配</h3>
+			<h3>&nbsp; 3.添加反向搜索功能</h3>
+			<h3>&nbsp; 4.ui 调整，贴合原版</h3>
+			<h3>&nbsp; 5.优化三个切换按钮</h3>
+			<h3>&nbsp; 6.启用搜索功能会显示id</h3>
+			<h3>&nbsp; 7.覆盖到更多界面</h3>
+			<h3>&nbsp; 8.合并丢弃快捷栏和丢弃背包按钮</h3>
+			<h3>&nbsp; 9.使用搜索过滤方法 _id_id_ (下划线 物品id 下滑线 循环)</h3>
+			<h3>&nbsp; bug - 1.21.0以下版本出现兼容性错误 (无法匹配到合成台UI)</h3>
 		</div>
 	</div>
 
+	<div class="top-text">
+		<h2>第九代轻量版 <a href="./快速搬运 v9 Lite.mcpack" target="_blank">下载</a></h2>
+		<div class="contont-text">
+			<h3>&nbsp; 1.轻量版极大改善卡顿问题</h3>
+			<h3>&nbsp; 2.删除反选功能和箱子界面切换功能，和其他功能</h3>
+		</div>
+	</div>
+
+	<div class="top-text">
+		<h2>v8.6 <a href="./快速搬运 v8.6.mcpack" target="_blank">下载</a></h2>
+		<div class="contont-text">
+			<h3>&nbsp; 1.覆盖到更多界面</h3>
+			<h3>&nbsp; 2.添加一键穿甲按钮</h3>
+		</div>
+	</div>
+
+	<div class="top-text">
+		<h2>v8.2 轻量版 <a href="./快速搬运 v8.2 轻量版.mcpack" target="_blank">下载</a></h2>
+		<div class="contont-text">
+			<h3>&nbsp; 1.重做UI</h3>
+			<h3>&nbsp; 2.飞行物品检测</h3>
+			<h3>&nbsp; 3.因效果不佳去除一键整理按钮</h3>
+		</div>
+	</div>
+
+	<div class="top-text">
+		<h2>v7.4a <a href="./快速搬运 v7.4a.mcpack" target="_blank">下载</a></h2>
+		<div class="contont-text">
+			<h3>&nbsp; 1.透明版UI</h3>
+			<h3>&nbsp; 2.加入测试版一键整理(模糊整理)</h3>
+			<h3>&nbsp; 3.加入其他语言翻译</h3>
+		</div>
+	</div>
+
+	<div class="top-text">
+		<h2>v6.4 <a href="./快速搬运 v6.4.mcpack" target="_blank">下载</a></h2>
+		<div class="contont-text">
+			<h3>&nbsp; 1.增加适配性</h3>
+			<h3>&nbsp; 2.优化UI</h3>
+			<h3>&nbsp; 3.适配携带版UI</h3>
+			<h3>&nbsp; 4.兼容性更强</h3>
+		</div>
+	</div>
+
+	<div class="top-text">
+		<h2>v5 <a href="./快速搬运 v5.mcpack" target="_blank">下载</a></h2>
+		<div class="contont-text">
+			<h3>&nbsp; 1.添加一键快速交易</h3>
+			<h3>&nbsp; 2.加入一键合成</h3>
+			<h3>&nbsp; 3.背包界面加入搜索物品</h3>
+		</div>
+	</div>
+
+	<div class="top-text">
+		<h2>v4.1 <a href="./快速搬运 v4.1.mcpack" target="_blank">下载</a></h2>
+		<div class="contont-text">
+			<h3>&nbsp; 1.取消物品分类功能</h3>
+			<h3>&nbsp; 2.背包加入扔物品功能</h3>
+			<h3>&nbsp; 3.精简模式仅显示两个按钮</h3>
+			<h3>&nbsp; 4.添加搜索功能</h3>
+		</div>
+	</div>
+
+	<div class="top-text">
+		<h2>v3 <a href="./快速搬运 v3.mcpack" target="_blank">下载</a></h2>
+		<div class="contont-text">
+			<h3>&nbsp; 1.加入物品分类功能(v3.6)</h3>
+		</div>
+	</div>
+
+	<div class="top-text">
+		<h2>v2 精简版 <a href="./快速搬运 v2 精简版.mcpack" target="_blank">下载</a></h2>
+		<div class="contont-text">
+			<h3>&nbsp; 调整UI大小</h3>
+		</div>
+	</div>
+
+	<div class="top-text">
+		<h2>初代版本 <a href="./快速搬运 精简版.mcpack" target="_blank">下载</a></h2>
+		<div class="contont-text">
+			<h3>&nbsp; 从专注局内操作UI中独立</h3>
+		</div>
+	</div>
 </body>
 
 </html>
