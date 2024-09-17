@@ -2,47 +2,77 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatle" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="def.css">
-    <title>快速切换视角</title>
-    <style>
-        .glass {
-            z-index: 100;
-            text-align: center;
-            width: 94%;
-            margin: 3%;
-            padding: 5px;
-            background-color: rgba(149, 182, 195, 0.609);
-            border-radius: 30px;
-            box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.4);
-            backdrop-filter: blur(10px);
-            transition: all 0.6s;
-        }
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatle" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>快速搬运视角</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Quicksand&dispaly=swap');
 
-        .glass:hover {
-            transform: translateY(-7px) scale(1.01, 1.01);
-            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
-        }
+		body {
+			font-family: 'Quicksand', sans-serif;
+			background-color: #0f2232;
+		}
 
-        .minfontsize {
-            font-size: 20px;
-        }
-    </style>
+		.title-text {
+			background-color: rgba(178, 178, 178, 0.3);
+		}
+
+		.top-text {
+			color: #e4f2ff;
+			background-color: rgba(178, 178, 178, 0.3);
+		}
+
+		.def-text {
+			color: #e4f2ff;
+		}
+
+		.contont-text {
+			color: #e4f2ff8a;
+		}
+
+		.item-mcpack {
+			display: flex;
+			height: 90px;
+			background-color: rgba(178, 178, 178, 0.3);
+		}
+
+		.item-icon {
+			height: 100px;
+			width: 100px;
+		}
+	</style>
 </head>
 
 <body>
-    <div class="glass-block">
-        <p>快速切换视角 v10</p>
-    </div>
-    <div>
-        <div class="glass-text">
-            <a href="./快速切换视角 v10.mcpack">下载 快速切换视角 v10</a>
-            <br>
-            <a href="https://yuanbaohhs.github.io/root">返回首页</a>
-        </div>
-    </div>
+	<div>
+		<h1 class="top-text">快速切换视角历史版本<a href="https://yuanbaohhs.github.io/root/" target="_blank">返回</a></h1>
+	</div>
+	<img src="/root/html-res/quick_setting_pack_icon.png" class="item-icon" alt="加载失败">
+
+	<div class="def-text">
+		<h3>快速切换视角，快速修改设置</h3>
+		<h4 class="contont-text">&nbsp; 1.超多的效果内容。</h4>
+		<h4 class="contont-text">&nbsp; 2.可以一键修改图形模式。</h4>
+		<h4 class="contont-text">&nbsp; 3.添加关闭水印按钮。</h4>
+		<h4 class="contont-text">&nbsp; 4.支持按钮拖动。</h4>
+		<h3>适配</h3>
+		<h4 class="contont-text">&nbsp; 1.极大改善兼容情况。</h4>
+		<h3>兼容</h3>
+		<h4 class="contont-text">第六代以下版本支持 1.19.40 - 1.20.30之间的的版本，之外的版本需要第六代以上版本使用。</h4>
+
+	</div>
+
+	<div class="top-text">
+		<h2>第十代 <a href="./快速切换视角 v10.mcpack" target="_blank">下载</a></h2>
+		<div class="contont-text">
+			<h3>&nbsp; 1.添加开启脱动功能按钮</h3>
+			<h3>&nbsp; 2.优化显示内容</h3>
+			<h3>&nbsp; 3.优化显示风格</h3>
+			<h3>&nbsp; 4.添加快速模式</h3>
+			<h3>&nbsp; 5.减少卡顿情况</h3>
+		</div>
+	</div>
 
 </body>
 
