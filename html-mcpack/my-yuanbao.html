@@ -6,11 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>yuanbao</title>
     <link rel="stylesheet" href="def.css">
+    <style>
+        .dom-bar {
+            position: fixed;
+            bottom: 4px;
+            z-index: 10;
+            background-color: rgba(255, 255, 255, 0);
+            height: 60px;
+            width: 100%;
+            border-radius: 30px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+        }
+
+        .dom-box {
+            position: fixed;
+            bottom: 4px;
+            z-index: 10;
+            height: 60px;
+            width: 100%;
+        }
+
+        .panel-box {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            width: 40px;
+            margin: 10px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            background-color: rgba(255, 255, 255, 0.482);
+        }
+
+        .item-img {
+            height: 120%;
+            width: 120%;
+        }
+    </style>
 </head>
 
 <body>
-
-    <span>Yuanbao</span>
+    <span>园宝 Yuanbao</span>
+    <div class="dom-box">
+        <div class="panel-box">
+            <a href="https://github.com/Yuanbaohhs/root/blob/main/index.html" class="box-item">
+                <img class="item-img" src="/github-html/html-mcpack/res/Github_icon.png" alt="">
+            </a>
+            <a href="#" class="box-item">
+                <img class="item-img" src="/github-html/html-mcpack/res/Gmail_icon.png" alt="">
+            </a>
+            <a href="https://qm.qq.com/q/UrnSUSBUIY" class="box-item">
+                <img class="item-img" src="/github-html/html-mcpack/res/QQ_icon.png" alt="">
+            </a>
+            <a href="#" class="box-item">
+                <img class="item-img" src="/github-html/html-mcpack/res/WeiChat_icon.png" alt="">
+            </a>
+        </div>
+    </div>
 </body>
 
 </html>
