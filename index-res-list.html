@@ -7,511 +7,604 @@
 	<title>资源列表</title>
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Quicksand&dispaly=swap');
-		
-		body{
-		    font-family: 'Quicksand', sans-serif;
-		    background-color: #ddd;
+
+		body {
+			font-family: 'Quicksand', sans-serif;
+			background-color: #ddd;
 		}
+
+		.slot_item_bg {
+			background-size: cover;
+			background-position: center;
+			left: 5px;
+			max-width: 500px;
+			border-radius: 8px;
+			width: 100%;
+			max-width: 500px;
+			background-image: url(/github-html/root/html-res/csb_faq_parrot_icon.png);
+		}
+
 		.slot_item {
-		    display: flex;
-		    border-radius: 8px;
-		    background-color: #00000044;
-		    box-shadow: 5px 5px 5px rgba(0,0,0,0.3), -5px -5px 5px rgba(255,255,255,0.7);
-		    height: 100%;
+			display: flex;
+			border-radius: 8px;
+			backdrop-filter: blur(6px);
+			background-color: #00000044;
+			box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3), -5px -5px 5px rgba(255, 255, 255, 0.7);
+			height: 100%;
+			max-width: 500px;
 		}
-		
+
 		.slot_item_box {
-		    font-size: 13px;
-		    display: flex;
-		    height: 40px;
-		    width: 100%;
+			font-size: 13px;
+			display: flex;
+			height: 40px;
+			width: 100%;
 		}
-		
+
 		.slot_item_icon {
-		    display: flex;
-		    align-items: center;
-		    justify-content: center;
-		    margin: 0px;
-		    height: 90px;
-		    width: 90px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 0px;
+			height: 90px;
+			width: 90px;
 		}
-		
+
 		.slot_item_img {
-		    position: relative;
-		    filter: drop-shadow(1px 1px 20px rgba(0, 0, 0, 0.5));
-		    margin: 10px;
-		    border-radius: 8px;
-		    height: 80px;
-		    width: 80px;
+			position: relative;
+			clip-path: stroke-box;
+			filter: drop-shadow(1px 1px 20px rgba(0, 0, 0, 0.5));
+			margin: 10px;
+			border-radius: 8px;
+			height: 80px;
+			width: 80px;
 		}
-		
+
 		.image {
-		    border-radius: 13px;
-		    position: absolute;
+			z-index: 0;
+			border-radius: 13px;
+			position: absolute;
 		}
-		
+
+		.image-bg {
+			background-size: cover;
+			background-position: center;
+			left: 5px;
+			width: 100%;
+			height: 100px;
+			max-width: 500px;
+			z-index: 0;
+			position: absolute;
+		}
+
 		.type-label {
-		    top: 10px;
-		    border-radius: 8px;
-		    background-color: rgba(255, 255, 255, 0.3);
-		    color: #ffffffcf;
-		    position: sticky;
+			top: 10px;
+			border-radius: 8px;
+			background-color: rgba(255, 255, 255, 0.3);
+			color: #ffffffcf;
+			position: sticky;
 		}
-		
+
 		.slot_item_box_label {
-		    line-height: 20px;
-		    font-size: 19px;
-		    color: rgba(176, 211, 242, 0.672);
+			line-height: 20px;
+			font-size: 19px;
+			color: rgba(176, 211, 242, 0.672);
 		}
-		
+
 		.box-dep {
-		    font-size: 14px;
-		    color: rgba(176, 211, 242, 0.672);
-		    display: flex;
-		    position: sticky;
-		    width: 100%;
-		    height: 17px;
+			font-size: 14px;
+			color: rgba(176, 211, 242, 0.672);
+			display: flex;
+			position: sticky;
+			width: 100%;
+			height: 17px;
 		}
 	</style>
 </head>
 
 <body>
-	<div class="slot_item">
-		<div class="slot_item_icon">
-			<div class="slot_item_img">
-				<img class="image" src="html-res/csb_faq_parrot_icon.png" alt="" style="height: 80px;width: 80px;">
-				<span class="type-label" style="top: 10px;">ui</span>
+	<div class="slot_item_bg">
+		<div class="slot_item">
+			<div>
+				<div style="flex-direction: column;">
+					<div class="slot_item_box">
+						<a href="https://yuanbaohhs.github.io/root/"
+							style="line-height: 0;color: aliceblue; right: 10px;">
+							<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;返回</h1>
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div style="flex-direction: column;">
-			<div class="slot_item_box">
-				<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;快速搬运</h1>
-				<h1 class="slot_item_box_label">&nbsp;v10</h1>
+	</div>
+	<br>
+	<div class="slot_item_bg">
+		<div class="slot_item">
+			<div class="slot_item_icon">
+				<div class="slot_item_img">
+					<img class="image" src="html-res/csb_faq_parrot_icon.png" alt="" style="height: 80px;width: 80px;">
+					<span class="type-label" style="top: 10px;">ui</span>
+				</div>
 			</div>
-			<div class="box-dep">
-				<span>&nbsp;MCBE首个快速搬运物品的UI</span>
-			</div>
+			<div style="flex-direction: column;">
+				<div class="slot_item_box">
+					<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;快速搬运</h1>
+					<h1 class="slot_item_box_label">&nbsp;v10</h1>
+				</div>
+				<div class="box-dep">
+					<span>&nbsp;MCBE首个快速搬运物品的UI</span>
+				</div>
 
-			<div style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
-				<span>&nbsp;更多：</span>
-				<a href="https://yuanbaohhs.github.io/root/html-mcpack/quick-handling.html">下载</a>
-				<a href="https://afdian.com/a/yuanbao_hhs_00067/plan">授权</a>
-				<span class="type-label" style="top: 10px;">by Yuanbao</span>
+				<div
+					style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
+					<span>&nbsp;更多：</span>
+					<a href="https://yuanbaohhs.github.io/root/html-mcpack/quick-handling.html">下载</a>
+					<a href="https://afdian.com/a/yuanbao_hhs_00067/plan">授权</a>
+					<span class="type-label" style="top: 10px;">by Yuanbao</span>
+				</div>
 			</div>
 		</div>
 	</div>
 	<br>
-	<div class="slot_item">
-		<div class="slot_item_icon">
-			<div class="slot_item_img">
-				<img class="image" src="html-res/move_pack_icon.png" alt="" style="height: 80px;width: 80px;">
-				<span class="type-label" style="top: 10px;">ui</span>
+	<div class="slot_item_bg">
+		<div class="slot_item">
+			<div class="slot_item_icon">
+				<div class="slot_item_img">
+					<img class="image" src="html-res/move_pack_icon.png" alt="" style="height: 80px;width: 80px;">
+					<span class="type-label" style="top: 10px;">ui</span>
+				</div>
 			</div>
-		</div>
-		<div style="flex-direction: column;">
-			<div class="slot_item_box">
-				<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;背包移动</h1>
-				<h1 class="slot_item_box_label">&nbsp;v6.5</h1>
-			</div>
-			<div class="box-dep">
-				<span>&nbsp;打开容器UI后仍然可以移动攻击！</span>
-			</div>
-			<div style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
-				<span>&nbsp;更多：</span>
-				<a href="https://yuanbaohhs.github.io/root/html-mcpack/move_ui.html">下载</a>
-				<span class="type-label" style="top: 10px;">by Yuanbao</span>
-			</div>
-		</div>
-	</div>
-	<br>
-	<div class="slot_item">
-		<div class="slot_item_icon">
-			<div class="slot_item_img">
-				<img class="image" src="html-res/box_preview_icon.png" alt="" style="height: 80px;width: 80px;">
-				<span class="type-label" style="top: 10px;">ui</span>
-			</div>
-		</div>
-		<div style="flex-direction: column;">
-			<div class="slot_item_box">
-				<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;潜影盒预览</h1>
-				<h1 class="slot_item_box_label">&nbsp;v2.3</h1>
-			</div>
-			<div class="box-dep">
-				<span>&nbsp;图像化包，受保护的内容停止出售！</span>
-			</div>
-			<div style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
-				<span>&nbsp;详情：</span>
-				<a href="https://yuanbaohhs.github.io/root/html-mcpack/box_preview.html">详情</a>
-				<span class="type-label" style="top: 10px;">by Yuanbao</span>
+			<div style="flex-direction: column;">
+				<div class="slot_item_box">
+					<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;背包移动</h1>
+					<h1 class="slot_item_box_label">&nbsp;v6.5</h1>
+				</div>
+				<div class="box-dep">
+					<span>&nbsp;打开容器UI后仍然可以移动攻击！</span>
+				</div>
+				<div
+					style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
+					<span>&nbsp;更多：</span>
+					<a href="https://yuanbaohhs.github.io/root/html-mcpack/move_ui.html">下载</a>
+					<span class="type-label" style="top: 10px;">by Yuanbao</span>
+				</div>
 			</div>
 		</div>
 	</div>
 	<br>
-	<div class="slot_item">
-		<div class="slot_item_icon">
-			<div class="slot_item_img">
-				<img class="image" src="html-res/quick_setting_pack_icon.png" alt="" style="height: 80px;width: 80px;">
-				<span class="type-label" style="top: 10px;">ui</span>
+	<div class="slot_item_bg">
+		<div class="slot_item">
+			<div class="slot_item_icon">
+				<div class="slot_item_img">
+					<img class="image" src="html-res/box_preview_icon.png" alt="" style="height: 80px;width: 80px;">
+					<span class="type-label" style="top: 10px;">ui</span>
+				</div>
 			</div>
-		</div>
-		<div style="flex-direction: column;">
-			<div class="slot_item_box">
-				<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;快速切换视角</h1>
-				<h1 class="slot_item_box_label">&nbsp;v10</h1>
-			</div>
-			<div class="box-dep">
-				<span>&nbsp;快速修改设置内容</span>
-			</div>
-			<div style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
-				<span>&nbsp;详情：</span>
-				<a href="https://yuanbaohhs.github.io/root/html-mcpack/quick-setting.html">下载</a>
-				<span class="type-label" style="top: 10px;">by Yuanbao</span>
-			</div>
-		</div>
-	</div>
-	<br>
-	<div class="slot_item">
-		<div class="slot_item_icon">
-			<div class="slot_item_img">
-				<img class="image" src="html-res/quick_make_icon.png" alt="" style="height: 80px;width: 80px;">
-				<span class="type-label" style="top: 10px;">ui</span>
-			</div>
-		</div>
-		<div style="flex-direction: column;">
-			<div class="slot_item_box">
-				<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;更多物品信息</h1>
-				<h1 class="slot_item_box_label">&nbsp;</h1>
-			</div>
-			<div class="box-dep">
-				<span>&nbsp;显示更多物品信息，耐久，id等</span>
-			</div>
-			<div style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
-				<span>&nbsp;更多：</span>
-				<a href="./html-mcpack/UI-详细物品信息.mcpack">直接下载</a>
-				<span class="type-label" style="top: 10px;">by Yuanbao</span>
+			<div style="flex-direction: column;">
+				<div class="slot_item_box">
+					<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;潜影盒预览</h1>
+					<h1 class="slot_item_box_label">&nbsp;v2.3</h1>
+				</div>
+				<div class="box-dep">
+					<span>&nbsp;图像化包，受保护的内容停止出售！</span>
+				</div>
+				<div
+					style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
+					<span>&nbsp;详情：</span>
+					<a href="https://yuanbaohhs.github.io/root/html-mcpack/box_preview.html">详情</a>
+					<span class="type-label" style="top: 10px;">by Yuanbao</span>
+				</div>
 			</div>
 		</div>
 	</div>
 	<br>
-	<div class="slot_item">
-		<div class="slot_item_icon">
-			<div class="slot_item_img">
-				<img class="image" src="html-res/quick_make_icon.png" alt="" style="height: 80px;width: 80px;">
-				<span class="type-label" style="top: 10px;">ui</span>
+	<div class="slot_item_bg">
+		<div class="slot_item">
+			<div class="slot_item_icon">
+				<div class="slot_item_img">
+					<img class="image" src="html-res/quick_setting_pack_icon.png" alt=""
+						style="height: 80px;width: 80px;">
+					<span class="type-label" style="top: 10px;">ui</span>
+				</div>
 			</div>
-		</div>
-		<div style="flex-direction: column;">
-			<div class="slot_item_box">
-				<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;快速合成</h1>
-				<h1 class="slot_item_box_label">&nbsp;v2</h1>
-			</div>
-			<div class="box-dep">
-				<span>&nbsp;快速合成，超快的合成物品</span>
-			</div>
-			<div style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
-				<span>&nbsp;更多：</span>
-				<a href="./html-mcpack/快速合成和一键合成.mcpack">直接下载</a>
-				<span class="type-label" style="top: 10px;">by Yuanbao</span>
-			</div>
-		</div>
-	</div>
-	<br>
-	<div class="slot_item">
-		<div class="slot_item_icon">
-			<div class="slot_item_img">
-				<img class="image" src="html-res/quick_make_icon.png" alt="" style="height: 80px;width: 80px;">
-				<span class="type-label" style="top: 10px;">ui</span>
-			</div>
-		</div>
-		<div style="flex-direction: column;">
-			<div class="slot_item_box">
-				<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;更好的药水效果UI</h1>
-				<h1 class="slot_item_box_label">&nbsp;v2</h1>
-			</div>
-			<div class="box-dep">
-				<span>&nbsp;更好的药水效果UI，HUD显示时间</span>
-			</div>
-			<div style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
-				<span>&nbsp;更多：</span>
-				<a href="">加群下载</a>
-				<span class="type-label" style="top: 10px;">by Yuanbao</span>
+			<div style="flex-direction: column;">
+				<div class="slot_item_box">
+					<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;快速切换视角</h1>
+					<h1 class="slot_item_box_label">&nbsp;v10</h1>
+				</div>
+				<div class="box-dep">
+					<span>&nbsp;快速修改设置内容</span>
+				</div>
+				<div
+					style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
+					<span>&nbsp;详情：</span>
+					<a href="https://yuanbaohhs.github.io/root/html-mcpack/quick-setting.html">下载</a>
+					<span class="type-label" style="top: 10px;">by Yuanbao</span>
+				</div>
 			</div>
 		</div>
 	</div>
 	<br>
-	<div class="slot_item">
-		<div class="slot_item_icon">
-			<div class="slot_item_img">
-				<img class="image" src="html-res/quick_make_icon.png" alt="" style="height: 80px;width: 80px;">
-				<span class="type-label" style="top: 10px;">ui</span>
+	<div class="slot_item_bg">
+		<div class="slot_item">
+			<div class="slot_item_icon">
+				<div class="slot_item_img">
+					<img class="image" src="html-res/quick_make_icon.png" alt="" style="height: 80px;width: 80px;">
+					<span class="type-label" style="top: 10px;">ui</span>
+				</div>
 			</div>
-		</div>
-		<div style="flex-direction: column;">
-			<div class="slot_item_box">
-				<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;存档导出</h1>
-				<h1 class="slot_item_box_label">&nbsp;</h1>
-			</div>
-			<div class="box-dep">
-				<span>&nbsp;导出存档或者是模板，可修改版本</span>
-			</div>
-			<div style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
-				<span>&nbsp;更多：</span>
-				<a href="">加群下载</a>
-				<span class="type-label" style="top: 10px;">by Yuanbao</span>
-			</div>
-		</div>
-	</div>
-	<br>
-	<div class="slot_item">
-		<div class="slot_item_icon">
-			<div class="slot_item_img">
-				<img class="image" src="html-res/quick_make_icon.png" alt="" style="height: 80px;width: 80px;">
-				<span class="type-label" style="top: 10px;">ui</span>
-			</div>
-		</div>
-		<div style="flex-direction: column;">
-			<div class="slot_item_box">
-				<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;动态3D水晶</h1>
-				<h1 class="slot_item_box_label">&nbsp;</h1>
-			</div>
-			<div class="box-dep">
-				<span>&nbsp;手持动态水晶</span>
-			</div>
-			<div style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
-				<span>&nbsp;更多：</span>
-				<a href="">加群下载</a>
-				<span class="type-label" style="top: 10px;">by Yuanbao</span>
+			<div style="flex-direction: column;">
+				<div class="slot_item_box">
+					<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;更多物品信息</h1>
+					<h1 class="slot_item_box_label">&nbsp;</h1>
+				</div>
+				<div class="box-dep">
+					<span>&nbsp;显示更多物品信息，耐久，id等</span>
+				</div>
+				<div
+					style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
+					<span>&nbsp;更多：</span>
+					<a href="./html-mcpack/UI-详细物品信息.mcpack">直接下载</a>
+					<span class="type-label" style="top: 10px;">by Yuanbao</span>
+				</div>
 			</div>
 		</div>
 	</div>
 	<br>
-	<div class="slot_item">
-		<div class="slot_item_icon">
-			<div class="slot_item_img">
-				<img class="image" src="html-res/quick_make_icon.png" alt="" style="height: 80px;width: 80px;">
-				<span class="type-label" style="top: 10px;">ui</span>
+	<div class="slot_item_bg">
+		<div class="slot_item">
+			<div class="slot_item_icon">
+				<div class="slot_item_img">
+					<img class="image" src="html-res/quick_make_icon.png" alt="" style="height: 80px;width: 80px;">
+					<span class="type-label" style="top: 10px;">ui</span>
+				</div>
 			</div>
-		</div>
-		<div style="flex-direction: column;">
-			<div class="slot_item_box">
-				<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;快速交易</h1>
-				<h1 class="slot_item_box_label">&nbsp;</h1>
-			</div>
-			<div class="box-dep">
-				<span>&nbsp;快速交易，一键交易</span>
-			</div>
-			<div style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
-				<span>&nbsp;更多：</span>
-				<a href="">加群下载</a>
-				<span class="type-label" style="top: 10px;">by Yuanbao</span>
-			</div>
-		</div>
-	</div>
-	<br>
-	<div class="slot_item">
-		<div class="slot_item_icon">
-			<div class="slot_item_img">
-				<img class="image" src="html-res/quick_make_icon.png" alt="" style="height: 80px;width: 80px;">
-				<span class="type-label" style="top: 10px;">ui</span>
-			</div>
-		</div>
-		<div style="flex-direction: column;">
-			<div class="slot_item_box">
-				<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;拒绝摧毁</h1>
-				<h1 class="slot_item_box_label">&nbsp;</h1>
-			</div>
-			<div class="box-dep">
-				<span>&nbsp;Screen Not Flushable.</span>
-			</div>
-			<div style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
-				<span>&nbsp;更多：</span>
-				<a href="">加群下载</a>
-				<span class="type-label" style="top: 10px;">by Yuanbao</span>
+			<div style="flex-direction: column;">
+				<div class="slot_item_box">
+					<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;快速合成</h1>
+					<h1 class="slot_item_box_label">&nbsp;v2</h1>
+				</div>
+				<div class="box-dep">
+					<span>&nbsp;快速合成，超快的合成物品</span>
+				</div>
+				<div
+					style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
+					<span>&nbsp;更多：</span>
+					<a href="./html-mcpack/快速合成和一键合成.mcpack">直接下载</a>
+					<span class="type-label" style="top: 10px;">by Yuanbao</span>
+				</div>
 			</div>
 		</div>
 	</div>
 	<br>
-	<div class="slot_item">
-		<div class="slot_item_icon">
-			<div class="slot_item_img">
-				<img class="image" src="html-res/fyzq_v1_icon.png" alt="" style="height: 80px;width: 80px;">
-				<span class="type-label" style="top: 10px;">ui</span>
+	<div class="slot_item_bg">
+		<div class="slot_item">
+			<div class="slot_item_icon">
+				<div class="slot_item_img">
+					<img class="image" src="html-res/quick_make_icon.png" alt="" style="height: 80px;width: 80px;">
+					<span class="type-label" style="top: 10px;">ui</span>
+				</div>
 			</div>
-		</div>
-		<div style="flex-direction: column;">
-			<div class="slot_item_box">
-				<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;锁端资源包</h1>
-				<h1 class="slot_item_box_label">&nbsp;v2</h1>
-			</div>
-			<div class="box-dep">
-				<span>&nbsp;没事别用</span>
-			</div>
-			<div style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
-				<span>&nbsp;更多：</span>
-				<a href="">加群下载</a>
-				<span class="type-label" style="top: 10px;">by Yuanbao</span>
-			</div>
-		</div>
-	</div>
-	<br>
-	<div class="slot_item">
-		<div class="slot_item_icon">
-			<div class="slot_item_img">
-				<img class="image" src="html-res/tool_box_icon.png" alt="" style="height: 80px;width: 80px;">
-				<span class="type-label" style="top: 10px;">ui</span>
-			</div>
-		</div>
-		<div style="flex-direction: column;">
-			<div class="slot_item_box">
-				<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;工具箱UI</h1>
-				<h1 class="slot_item_box_label">&nbsp;v7</h1>
-			</div>
-			<div class="box-dep">
-				<span>&nbsp;一些功能整合</span>
-			</div>
-			<div style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
-				<span>&nbsp;更多：</span>
-				<a href="">加群下载</a>
-				<span class="type-label" style="top: 10px;">by Yuanbao</span>
+			<div style="flex-direction: column;">
+				<div class="slot_item_box">
+					<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;更好的药水效果UI</h1>
+					<h1 class="slot_item_box_label">&nbsp;v2</h1>
+				</div>
+				<div class="box-dep">
+					<span>&nbsp;更好的药水效果UI，HUD显示时间</span>
+				</div>
+				<div
+					style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
+					<span>&nbsp;更多：</span>
+					<a href="">加群下载</a>
+					<span class="type-label" style="top: 10px;">by Yuanbao</span>
+				</div>
 			</div>
 		</div>
 	</div>
 	<br>
-	<div class="slot_item">
-		<div class="slot_item_icon">
-			<div class="slot_item_img">
-				<img class="image" src="html-res/fyzq_v1_icon.png" alt="" style="height: 80px;width: 80px;">
-				<span class="type-label" style="top: 10px;">ui</span>
+	<div class="slot_item_bg">
+		<div class="slot_item">
+			<div class="slot_item_icon">
+				<div class="slot_item_img">
+					<img class="image" src="html-res/quick_make_icon.png" alt="" style="height: 80px;width: 80px;">
+					<span class="type-label" style="top: 10px;">ui</span>
+				</div>
 			</div>
-		</div>
-		<div style="flex-direction: column;">
-			<div class="slot_item_box">
-				<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;调试UI</h1>
-				<h1 class="slot_item_box_label">&nbsp;v7</h1>
-			</div>
-			<div class="box-dep">
-				<span>&nbsp;一些测试功能整合</span>
-			</div>
-			<div style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
-				<span>&nbsp;更多：</span>
-				<a href="">加群下载</a>
-				<span class="type-label" style="top: 10px;">by Yuanbao</span>
-			</div>
-		</div>
-	</div>
-	<br>
-	<div class="slot_item">
-		<div class="slot_item_icon">
-			<div class="slot_item_img">
-				<img class="image" src="html-res/chat_ui_icon.png" alt="" style="height: 80px;width: 80px;">
-				<span class="type-label" style="top: 10px;">ui</span>
-			</div>
-		</div>
-		<div style="flex-direction: column;">
-			<div class="slot_item_box">
-				<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;Chat增强</h1>
-				<h1 class="slot_item_box_label">&nbsp;v3</h1>
-			</div>
-			<div class="box-dep">
-				<span>&nbsp;超级强化聊天栏</span>
-			</div>
-			<div style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
-				<span>&nbsp;更多：</span>
-				<a href="">加群下载</a>
-				<span class="type-label" style="top: 10px;">by Yuanbao</span>
+			<div style="flex-direction: column;">
+				<div class="slot_item_box">
+					<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;存档导出</h1>
+					<h1 class="slot_item_box_label">&nbsp;</h1>
+				</div>
+				<div class="box-dep">
+					<span>&nbsp;导出存档或者是模板，可修改版本</span>
+				</div>
+				<div
+					style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
+					<span>&nbsp;更多：</span>
+					<a href="">加群下载</a>
+					<span class="type-label" style="top: 10px;">by Yuanbao</span>
+				</div>
 			</div>
 		</div>
 	</div>
 	<br>
-	<div class="slot_item">
-		<div class="slot_item_icon">
-			<div class="slot_item_img">
-				<img class="image" src="html-res/typeface_icon.png" alt="" style="height: 80px;width: 80px;">
-				<span class="type-label" style="top: 10px;">ui</span>
+	<div class="slot_item_bg">
+		<div class="slot_item">
+			<div class="slot_item_icon">
+				<div class="slot_item_img">
+					<img class="image" src="html-res/quick_make_icon.png" alt="" style="height: 80px;width: 80px;">
+					<span class="type-label" style="top: 10px;">ui</span>
+				</div>
 			</div>
-		</div>
-		<div style="flex-direction: column;">
-			<div class="slot_item_box">
-				<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;字体修正</h1>
-				<h1 class="slot_item_box_label">&nbsp;v2</h1>
-			</div>
-			<div class="box-dep">
-				<span>&nbsp;仿Java版字体</span>
-			</div>
-			<div style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
-				<span>&nbsp;更多：</span>
-				<a href="">加群下载</a>
-				<span class="type-label" style="top: 10px;">by Yuanbao</span>
-			</div>
-		</div>
-	</div>
-	<br>
-	<div class="slot_item">
-		<div class="slot_item_icon">
-			<div class="slot_item_img">
-				<img class="image" src="html-res/fyzq_v1_icon.png" alt="" style="height: 80px;width: 80px;">
-				<span class="type-label" style="top: 10px;">ui</span>
-			</div>
-		</div>
-		<div style="flex-direction: column;">
-			<div class="slot_item_box">
-				<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;UI条件解除</h1>
-				<h1 class="slot_item_box_label">&nbsp;v2</h1>
-			</div>
-			<div class="box-dep">
-				<span>&nbsp;显示几乎所有的隐藏控件，即使不可用</span>
-			</div>
-			<div style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
-				<span>&nbsp;更多：</span>
-				<a href="">加群下载</a>
-				<span class="type-label" style="top: 10px;">by Yuanbao</span>
+			<div style="flex-direction: column;">
+				<div class="slot_item_box">
+					<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;动态3D水晶
+					</h1>
+					<h1 class="slot_item_box_label">&nbsp;</h1>
+				</div>
+				<div class="box-dep">
+					<span>&nbsp;手持动态水晶</span>
+				</div>
+				<div
+					style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
+					<span>&nbsp;更多：</span>
+					<a href="">加群下载</a>
+					<span class="type-label" style="top: 10px;">by Yuanbao</span>
+				</div>
 			</div>
 		</div>
 	</div>
 	<br>
-	<div class="slot_item">
-		<div class="slot_item_icon">
-			<div class="slot_item_img">
-				<img class="image" src="html-res/quick_make_icon.png" alt="" style="height: 80px;width: 80px;">
-				<span class="type-label" style="top: 10px;">Client</span>
+	<div class="slot_item_bg">
+		<div class="slot_item">
+			<div class="slot_item_icon">
+				<div class="slot_item_img">
+					<img class="image" src="html-res/quick_make_icon.png" alt="" style="height: 80px;width: 80px;">
+					<span class="type-label" style="top: 10px;">ui</span>
+				</div>
 			</div>
-		</div>
-		<div style="flex-direction: column;">
-			<div class="slot_item_box">
-				<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;网易客户端</h1>
-				<h1 class="slot_item_box_label">&nbsp;资源整合</h1>
-			</div>
-			<div class="box-dep">
-				<span>&nbsp;待上架</span>
-			</div>
-			<div style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
-				<span>&nbsp;更多：</span>
-				<a href="">待上架</a>
-				<span class="type-label" style="top: 10px;">by Yuanbao</span>
+			<div style="flex-direction: column;">
+				<div class="slot_item_box">
+					<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;快速交易
+					</h1>
+					<h1 class="slot_item_box_label">&nbsp;</h1>
+				</div>
+				<div class="box-dep">
+					<span>&nbsp;快速交易，一键交易</span>
+				</div>
+				<div
+					style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
+					<span>&nbsp;更多：</span>
+					<a href="">加群下载</a>
+					<span class="type-label" style="top: 10px;">by Yuanbao</span>
+				</div>
 			</div>
 		</div>
 	</div>
 	<br>
-	<div class="slot_item">
-		<div class="slot_item_icon">
-			<div class="slot_item_img">
-				<img class="image" src="html-res/0u0_icon.png" alt="" style="height: 80px;width: 80px;">
-				<span class="type-label" style="top: 10px;">Biology</span>
+	<div class="slot_item_bg">
+		<div class="slot_item">
+			<div class="slot_item_icon">
+				<div class="slot_item_img">
+					<img class="image" src="html-res/quick_make_icon.png" alt="" style="height: 80px;width: 80px;">
+					<span class="type-label" style="top: 10px;">ui</span>
+				</div>
+			</div>
+			<div style="flex-direction: column;">
+				<div class="slot_item_box">
+					<h1 style="line-height: 0;color: aliceblue; right: 10px;">
+						&nbsp;拒绝摧毁</h1>
+					<h1 class="slot_item_box_label">&nbsp;</h1>
+				</div>
+				<div class="box-dep">
+					<span>&nbsp;Screen Not Flushable.</span>
+				</div>
+				<div
+					style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
+					<span>&nbsp;更多：</span>
+					<a href="">加群下载</a>
+					<span class="type-label" style="top: 10px;">by Yuanbao</span>
+				</div>
 			</div>
 		</div>
-		<div style="flex-direction: column;">
-			<div class="slot_item_box">
-				<h1 style="line-height: 0;color: aliceblue; right: 10px;">&nbsp;筱筱 0u0_</h1>
-				<h1 class="slot_item_box_label">&nbsp;220000￥</h1>
+	</div>
+	<br>
+	<div class="slot_item_bg">
+		<div class="slot_item">
+			<div class="slot_item_icon">
+				<div class="slot_item_img">
+					<img class="image" src="html-res/fyzq_v1_icon.png" alt="" style="height: 80px;width: 80px;">
+					<span class="type-label" style="top: 10px;">ui</span>
+				</div>
 			</div>
-			<div class="box-dep">
-				<span>&nbsp;活体家养人类，男，12岁，久经沙场。</span>
+			<div style="flex-direction: column;">
+				<div class="slot_item_box">
+					<h1 style="line-height: 0;color: aliceblue; right: 10px;">
+						&nbsp;锁端资源包</h1>
+					<h1 class="slot_item_box_label">&nbsp;v2</h1>
+				</div>
+				<div class="box-dep">
+					<span>&nbsp;没事别用</span>
+				</div>
+				<div
+					style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
+					<span>&nbsp;更多：</span>
+					<a href="">加群下载</a>
+					<span class="type-label" style="top: 10px;">by
+						Yuanbao</span>
+				</div>
 			</div>
-			<div style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
-				<span>&nbsp;更多：</span>
-				<a href="">抢购</a>
-				<a href="">联系</a>
-				<span class="type-label" style="top: 10px;">World</span>
+		</div>
+	</div>
+	<br>
+	<div class="slot_item_bg">
+		<div class="slot_item">
+			<div class="slot_item_icon">
+				<div class="slot_item_img">
+					<img class="image" src="html-res/tool_box_icon.png" alt="" style="height: 80px;width: 80px;">
+					<span class="type-label" style="top: 10px;">ui</span>
+				</div>
+			</div>
+			<div style="flex-direction: column;">
+				<div class="slot_item_box">
+					<h1 style="line-height: 0;color: aliceblue; right: 10px;">
+						&nbsp;工具箱UI</h1>
+					<h1 class="slot_item_box_label">&nbsp;v7</h1>
+				</div>
+				<div class="box-dep">
+					<span>&nbsp;一些功能整合</span>
+				</div>
+				<div
+					style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
+					<span>&nbsp;更多：</span>
+					<a href="">加群下载</a>
+					<span class="type-label" style="top: 10px;">by
+						Yuanbao</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="slot_item_bg">
+		<div class="slot_item">
+			<div class="slot_item_icon">
+				<div class="slot_item_img">
+					<img class="image" src="html-res/fyzq_v1_icon.png" alt="" style="height: 80px;width: 80px;">
+					<span class="type-label" style="top: 10px;">ui</span>
+				</div>
+			</div>
+			<div style="flex-direction: column;">
+				<div class="slot_item_box">
+					<h1 style="line-height: 0;color: aliceblue; right: 10px;">
+						&nbsp;调试UI</h1>
+					<h1 class="slot_item_box_label">&nbsp;v7</h1>
+				</div>
+				<div class="box-dep">
+					<span>&nbsp;一些测试功能整合</span>
+				</div>
+				<div
+					style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
+					<span>&nbsp;更多：</span>
+					<a href="">加群下载</a>
+					<span class="type-label" style="top: 10px;">by
+						Yuanbao</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="slot_item_bg">
+		<div class="slot_item">
+			<div class="slot_item_icon">
+				<div class="slot_item_img">
+					<img class="image" src="html-res/chat_ui_icon.png" alt="" style="height: 80px;width: 80px;">
+					<span class="type-label" style="top: 10px;">ui</span>
+				</div>
+			</div>
+			<div style="flex-direction: column;">
+				<div class="slot_item_box">
+					<h1 style="line-height: 0;color: aliceblue; right: 10px;">
+						&nbsp;Chat增强</h1>
+					<h1 class="slot_item_box_label">&nbsp;v3</h1>
+				</div>
+				<div class="box-dep">
+					<span>&nbsp;超级强化聊天栏</span>
+				</div>
+				<div
+					style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
+					<span>&nbsp;更多：</span>
+					<a href="">加群下载</a>
+					<span class="type-label" style="top: 10px;">by
+						Yuanbao</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="slot_item_bg">
+		<div class="slot_item">
+			<div class="slot_item_icon">
+				<div class="slot_item_img">
+					<img class="image" src="html-res/typeface_icon.png" alt="" style="height: 80px;width: 80px;">
+					<span class="type-label" style="top: 10px;">ui</span>
+				</div>
+			</div>
+			<div style="flex-direction: column;">
+				<div class="slot_item_box">
+					<h1 style="line-height: 0;color: aliceblue; right: 10px;">
+						&nbsp;字体修正</h1>
+					<h1 class="slot_item_box_label">&nbsp;v2
+					</h1>
+				</div>
+				<div class="box-dep">
+					<span>&nbsp;仿Java版字体</span>
+				</div>
+				<div
+					style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
+					<span>&nbsp;更多：</span>
+					<a href="">加群下载</a>
+					<span class="type-label" style="top: 10px;">by
+						Yuanbao</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="slot_item_bg">
+		<div class="slot_item">
+			<div class="slot_item_icon">
+				<div class="slot_item_img">
+					<img class="image" src="html-res/fyzq_v1_icon.png" alt="" style="height: 80px;width: 80px;">
+					<span class="type-label" style="top: 10px;">ui</span>
+				</div>
+			</div>
+			<div style="flex-direction: column;">
+				<div class="slot_item_box">
+					<h1 style="line-height: 0;color: aliceblue; right: 10px;">
+						&nbsp;UI条件解除</h1>
+					<h1 class="slot_item_box_label">&nbsp;v2
+					</h1>
+				</div>
+				<div class="box-dep">
+					<span>&nbsp;显示几乎所有的隐藏控件，即使不可用</span>
+				</div>
+				<div
+					style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
+					<span>&nbsp;更多：</span>
+					<a href="">加群下载</a>
+					<span class="type-label" style="top: 10px;">by
+						Yuanbao</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="slot_item_bg">
+		<div class="slot_item">
+			<div class="slot_item_icon">
+				<div class="slot_item_img">
+					<img class="image" src="html-res/quick_make_icon.png" alt="" style="height: 80px;width: 80px;">
+					<span class="type-label" style="top: 10px;">Client</span>
+				</div>
+			</div>
+			<div style="flex-direction: column;">
+				<div class="slot_item_box">
+					<h1 style="line-height: 0;color: aliceblue; right: 10px;">
+						&nbsp;网易客户端</h1>
+					<h1 class="slot_item_box_label">
+						&nbsp;资源整合</h1>
+				</div>
+				<div class="box-dep">
+					<span>&nbsp;待上架</span>
+				</div>
+				<div
+					style="font-size: 14px;height: 100%;width: 100%;flex-direction:column; color:rgba(176, 211, 242, 0.672);">
+					<span>&nbsp;更多：</span>
+					<a href="">待上架</a>
+					<span class="type-label" style="top: 10px;">by
+						Yuanbao</span>
+				</div>
 			</div>
 		</div>
 	</div>
