@@ -28,10 +28,27 @@ body {
     background-color: rgba(178, 178, 178, 0.3);
 }
 
+.box-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+    width: fill
+}
+.box-img-file{
+    height: 180px;
+    width: 280px
+}
+
 .top-text {
     margin: 10px;
     font-size: 20px;
     color: #e4f2ff;
+}
+.top-text-v {
+    margin: 10px;
+    font-size: 15px;
+    color: #b3bfc9;
 }
 
 .contont-text {
