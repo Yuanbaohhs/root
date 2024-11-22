@@ -9,6 +9,10 @@
     right: 0;
 }
 
+.url-text{
+    color: #002548;
+}
+
 body {
     font-family: 'Quicksand', sans-serif;
     background-color: #ddd;
