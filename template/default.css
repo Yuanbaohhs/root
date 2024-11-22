@@ -11,21 +11,31 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
-    background-color: #001a36;
+    background-color: #ddd;
 }
 
 .title-text {
     max-width: 700px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px 0px rgba(57, 23, 23, 0.3);
-    background-color: rgba(178, 178, 178, 0.3);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3),
+                -8px -8px 8px rgba(255, 255, 255, 0.7);
+    background-color: rgba(178, 178, 178, 0.6);
+}
+
+.laber-box-panel{
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3),
+                -8px -8px 8px rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    background-color: rgba(178, 178, 178, 0.6);
 }
 
 .laber-box {
-    max-width: 700px;
-    box-shadow: 0px 0px 10px 0px rgba(57, 23, 23, 0.3);
-    border-radius: 20px;
-    background-color: rgba(178, 178, 178, 0.3);
+    width: 95%;
 }
 
 .box-img{
@@ -43,25 +53,30 @@ body {
 .top-text {
     margin: 10px;
     font-size: 20px;
-    color: #e4f2ff;
+    color: #002548;
 }
 .top-text-v {
     margin: 10px;
     font-size: 15px;
-    color: #b3bfc9;
+    color: #0025489d;
+}
+
+.default-text {
+    color: #002548;
 }
 
 .contont-text {
-    color: #e4f2ff8a;
+    color: #0025489d;
 }
 
 .item-mcpack {
     max-width: 700px;
-    box-shadow: 0px 0px 10px 0px rgba(57, 23, 23, 0.3);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3),
+                -8px -8px 8px rgba(255, 255, 255, 0.7);
     display: flex;
     height: 90px;
     border-radius: 20px;
-    background-color: rgba(178, 178, 178, 0.3);
+    background-color: rgba(91, 184, 255, 0.3);
 }
 
 .item-icon {
