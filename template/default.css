@@ -73,6 +73,11 @@ body {
     color: #0025489d;
 }
 
+.root-panel {
+	max-width: 700px;
+	width: 100%;
+}
+
 .item-mcpack {
     max-width: 700px;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3),
