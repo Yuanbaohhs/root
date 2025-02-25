@@ -10,7 +10,15 @@
 }
 
 .url-text{
-    color: #3c87cd;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0px 5px;
+    background-color: #ffffff32;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    color: #00000087;
 }
 
 body {
