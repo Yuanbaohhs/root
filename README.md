@@ -2,4 +2,4 @@
 <span>My Yuanbao</span>
 <br>
 <span>Bilibili@园宝YUANBAO</span>
-<a class="url-text" href="https://yuanbaohhs.github.io/root/" target="_blank">访问官网</a>
+<a class="url-text" href="https://yuanbaohhs.github.io/root/" target="_blank">查看此项目HTML</a>
