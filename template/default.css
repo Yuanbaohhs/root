@@ -1,84 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&dispaly=swap');
 
 .sky {
-    background-color: #fff;
-    box-shadow: #0084ff;
-    width: 50px;
-    height: 50px;
-    top: 0;
-    right: 0;
+	background-color: #fff;
+	box-shadow: #0084ff;
+	width: 50px;
+	height: 50px;
+	top: 0;
+	right: 0;
 }
 
-.url-text{
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    padding: 0px 5px;
-    background-color: #ffffff32;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    border-radius: 5px;
-    color: #00000087;
+.url-text {
+	color: #3c87cd;
 }
 
 body {
-    font-family: 'Quicksand', sans-serif;
-    background-color: #ddd;
+	font-family: 'Quicksand', sans-serif;
+	background-color: #ddd;
 }
 
 .title-text {
-    max-width: 700px;
-    border-radius: 20px;
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3),
-                -8px -8px 8px rgba(255, 255, 255, 0.7);
-    background-color: rgba(178, 178, 178, 0.6);
+	max-width: 700px;
+	border-radius: 20px;
+	box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3),
+		-8px -8px 8px rgba(255, 255, 255, 0.7);
+	background-color: rgba(178, 178, 178, 0.6);
 }
 
-.laber-box-panel{
-    max-width: 700px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3),
-                -8px -8px 8px rgba(255, 255, 255, 0.7);
-    border-radius: 20px;
-    background-color: rgba(178, 178, 178, 0.6);
+.laber-box-panel {
+	max-width: 700px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3),
+		-8px -8px 8px rgba(255, 255, 255, 0.7);
+	border-radius: 20px;
+	background-color: rgba(178, 178, 178, 0.6);
+}
+
+.url_box {
+	color: #3c87cd;
+	max-width: 700px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+.url_box_shadow {
+	color: #3c87cd;
+	max-width: 700px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3),
+		-8px -8px 8px rgba(255, 255, 255, 0.7);
+	border-radius: 20px;
+	background-color: rgba(178, 178, 178, 0.6);
 }
 
 .laber-box {
-    width: 95%;
+	width: 95%;
 }
 
-.box-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 190px;
-    width: fill
+.box-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 190px;
+	width: fill
 }
-.box-img-file{
-    height: 180px;
-    width: 280px
+
+.box-img-file {
+	height: 180px;
+	width: 280px
 }
 
 .top-text {
-    margin: 10px;
-    font-size: 20px;
-    color: #002548;
+	margin: 10px;
+	font-size: 20px;
+	color: #002548;
 }
+
 .top-text-v {
-    margin: 10px;
-    font-size: 15px;
-    color: #0025489d;
+	margin: 10px;
+	font-size: 15px;
+	color: #0025489d;
 }
 
 .default-text {
-    color: #002548;
+	color: #002548;
 }
 
 .contont-text {
-    color: #0025489d;
+	color: #0025489d;
+}
+
+.item-mcpack {
+	max-width: 700px;
+	box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3),
+		-8px -8px 8px rgba(255, 255, 255, 0.7);
+	display: flex;
+	height: 90px;
+	border-radius: 20px;
+	background-color: #09f;
+}
+
+.item-icon {
+	margin: 10px;
+	height: 80px;
+	width: 80px;
 }
 
 .root-panel {
@@ -86,18 +118,20 @@ body {
 	width: 100%;
 }
 
-.item-mcpack {
-    max-width: 700px;
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3),
-                -8px -8px 8px rgba(255, 255, 255, 0.7);
-    display: flex;
-    height: 90px;
-    border-radius: 20px;
-    background-color: rgba(91, 184, 255, 0.3);
+.title-img {
+	width: auto;
+	height: 200px;
 }
 
-.item-icon {
-    margin: 10px;
-    height: 80px;
-    width: 80px;
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.hello-label {
+	font-size: 60px;
+	letter-spacing: 5px;
+	text-shadow: 0 0 4px#000;
+	color: #000;
 }
