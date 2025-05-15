@@ -2,293 +2,378 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatle" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biomimetic pixel</title>
-    <link rel="stylesheet" href="/root/template/default.css">
-    <style>
-        .title-img {
-            width: auto;
-            height: 200px;
-        }
-
-        body {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .hello-label {
-            font-size: 60px;
-            letter-spacing: 5px;
-            text-shadow: 0 0 4px#000;
-            color: #000;
-        }
-    </style>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatle" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>仿生像素 Biomimetic pixel</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Quicksand&dispaly=swap');
+		
+		body {
+			font-family: 'Quicksand', sans-serif;
+			background-color: #ddd;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		
+		.label_sx1 {
+			color: #3c87cd;
+		}
+		
+		.label_sx2 {
+			max-width: 700px;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3),
+				-8px -8px 8px rgba(255, 255, 255, 0.7);
+			border-radius: 20px;
+			background-color: rgba(178, 178, 178, 0.6);
+		}
+		
+		.label_sx3 {
+			margin: 10px;
+			font-size: 15px;
+			color: #0025489d;
+		}
+		
+		.label_sx4 {
+			margin: 10px;
+			font-size: 20px;
+			color: #002548;
+		}
+		
+		.label_sx5 {
+			width: 95%;
+		}
+		
+		.label_sx6 {
+			font-size: 60px;
+			letter-spacing: 5px;
+			text-shadow: 0 0 4px#000;
+			color: #000;
+		}
+		
+		.label_sx7 {
+			margin: 10px;
+			font-size: 20px;
+			color: #002548;
+		}
+		
+		.label_sx8 {
+			color: #002548;
+		}
+	
+		.box-img {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 190px;
+			width: fill
+		}
+		
+		.box-img-file {
+			height: 180px;
+			width: 280px
+		}
+		
+		.default-text {
+			color: #002548;
+		}
+		
+		.contont-text {
+			color: #0025489d;
+		}
+		
+		.item_sx1 {
+			max-width: 700px;
+			box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3),
+				-8px -8px 8px rgba(255, 255, 255, 0.7);
+			display: flex;
+			height: 90px;
+			border-radius: 20px;
+			background-color: rgba(90, 184, 255, 0.2);
+		}
+		
+		.item_sx2 {
+			margin: 10px;
+			height: 80px;
+			width: 80px;
+		}
+		
+		.root-panel {
+			max-width: 700px;
+		}
+		
+		.title-img {
+			width: auto;
+			height: 200px;
+		}
+	</style>
 </head>
 
 <body>
-    <div class="root-panel">
-        <div style="display: flex;align-items: center;justify-content: center;">
-            <div class="title-img">
-                <a href="https://yuanbaohhs.github.io/root/">
-                    <img style="width: auto; height: 200px;" src="/root/template/minecraft_cake.png" alt="">
-                </a>
-            </div>
-        </div>
-        <h1 class="hello-label">hello!</h1>
-        <div class="laber-box-panel" style="background-color: rgba(91, 184, 255, 0.3);">
-            <div class="laber-box">
-                <h1 class="top-text">欢迎来到首页</h1>
-            </div>
-        </div>
-        <br>
-        <div class="laber-box-panel">
-            <div class="laber-box">
-                <div>
-                    <span class="top-text">
-                        最受欢迎的模组：
-                    </span>
-                    <div class="contont-text">
-                        <span>&nbsp; 1.快速搬运<a class="url-text"
-                                href="https://yuanbaohhs.github.io/root/html-mcpack/info/quick_handling.html">下载</a></span>
-                        <br>
-                        <span>&nbsp; 2.快速切换视角<a class="url-text"
-                                href="https://yuanbaohhs.github.io/root/html-mcpack/quick-setting.html">下载</a></span>
-                        <br>
-                        <span>&nbsp; 3.背包移动<a class="url-text"
-                                href="https://yuanbaohhs.github.io/root/html-mcpack/info/move_ui.html">下载</a></span>
-                        <br>
-                        <span>&nbsp; 4.效果增强<a class="url-text"
-                                href="https://yuanbaohhs.github.io/root/html-mcpack/info/enhanced_effect.html">下载</a></span>
-                        <br>
-                        <span>&nbsp; 5.背包物品显示</span>
-                        <br>
-                        <span>&nbsp; 6.强制导出存档<a class="url-text"
-                                href="https://yuanbaohhs.github.io/root/html-mcpack/info/world_edit_export.html">下载</a></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="item-mcpack">
-            <img src="html-res/csb_faq_parrot_icon.png" class="item-icon" alt="加载失败">
-            <div>
-                <div>
-                    <h2 style="line-height: 1px; color: #e4f2ff;">快速搬运</h2>
-                    <div style="line-height: 1px;"></div>
-                    <p class="contont-text">快速搬运物品，MCPE首款支持快速物品操作。<a class="url-text" href="https://yuanbaohhs.github.io/root/html-mcpack/info/quick_handling.html"
-                            target="_blank">下载</a>or<a class="url-text" href="https://yuanbaohhs.github.io/root/html-mcpack/file/buy-pack.html">授权</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="item-mcpack">
-            <img src="html-res/quick_setting_pack_icon.png" class="item-icon" alt="加载失败">
-            <div>
-                <div>
-                    <h2 style="line-height: 1px; color: #e4f2ff;">快速切换视角</h2>
-                    <div style="line-height: 1px;"></div>
-                    <p class="contont-text">快速切换视角，快速修改设置内容。<a class="url-text" href="https://yuanbaohhs.github.io/root/html-mcpack/quick-setting.html"
-                            target="_blank">下载</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="item-mcpack">
-            <img src="/root/html-mcpack/icon/move_ui.png" class="item-icon" alt="加载失败">
-            <div>
-                <div>
-                    <h2 style="line-height: 1px; color: #e4f2ff;">背包移动</h2>
-                    <div style="line-height: 1px;"></div>
-                    <p class="contont-text">打开UI会可以移动攻击，支持兼容超多UI。<a class="url-text" href="https://yuanbaohhs.github.io/root/html-mcpack/info/move_ui.html"
-                            target="_blank">下载</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="item-mcpack">
-            <img src="/root/html-mcpack/icon/enhanced_effect.png" class="item-icon" alt="加载失败">
-            <div>
-                <div>
-                    <h2 style="line-height: 1px; color: #e4f2ff;">效果增强</h2>
-                    <div style="line-height: 1px;"></div>
-                    <p class="contont-text">效果增强，强化游戏体验。<a class="url-text" href="https://yuanbaohhs.github.io/root/html-mcpack/info/enhanced_effect.html"
-                            target="_blank">下载</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="item-mcpack">
-            <img src="/root/html-mcpack/icon/default_empty_icon.png" class="item-icon" alt="加载失败">
-            <div>
-                <div>
-                    <h2 style="line-height: 1px; color: #e4f2ff;">强制导出存档</h2>
-                    <div style="line-height: 1px;"></div>
-                    <p class="contont-text">强制导出存档以及编辑。<a class="url-text" href="https://yuanbaohhs.github.io/root/html-mcpack/info/world_edit_export.html"
-                            target="_blank">下载</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="item-mcpack">
-            <img src="/root/html-mcpack/icon/empty_structure_icon.png" class="item-icon" alt="加载失败">
-            <div>
-                <div>
-                    <h2 style="line-height: 1px; color: #e4f2ff;">结构文件</h2>
-                    <div style="line-height: 1px;"></div>
-                    <p class="contont-text">后缀为mcstructure的结构文件。<a class="url-text" href="https://yuanbaohhs.github.io/root/html-mcpack/info/hide_content.html"
-                            target="_blank">列表</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="laber-box-panel" style="height: 30px;">
-            <div class="url_box">
-                <h2 style="text-align: left;">
-                    <a href="https://yuanbaohhs.github.io/root/index-res-list.html" target="_blank">查看全部资源项目</a>
-                </h2>
-            </div>
-        </div>
-        <br>
-        <div class="laber-box-panel" style="height: 30px;">
-            <div class="url_box">
-                <h2 style="text-align: left;">
-                    <a href="https://yuanbaohhs.github.io/root/index_fancy_res.html" target="_blank">愚人节版本/娱乐资源包</a>
-                </h2>
-            </div>
-        </div>
-        <br>
-        <div class="laber-box-panel" style="height: 30px;">
-            <div class="url_box">
-                <h2 style="text-align: left;">
-                    <a href="https://yuanbaohhs.github.io/root/copyright.html" target="_blank">资源协议</a>
-                </h2>
-            </div>
-        </div>
-        <br>
-        <div class="laber-box-panel" style="height: 30px;">
-            <div class="url_box">
-                <h2 style="text-align: left;">
-                    <a href="#" target="_blank">实体周边</a>
-                </h2>
-            </div>
-        </div>
-        <br>
-        <div style="display: flex;align-items: center;justify-content: center;">
-            <div class="title-img" style="height: 150px;">
-                <img style="width: auto; height: 150px;" src="/root/template/ender_dragon.png" alt="">
-            </div>
-        </div>
-        <br>
-        <div class="laber-box-panel">
-            <div class="laber-box">
-                <span class="top-text">加入 Realms 服务器</span>
-                <div class="contont-text">
-                    <span>&nbsp; 最新正式版<a class="url-text" href="https://realms.gg/Pbn6YoCBG84">资源发布预览</a> 10人</span>
-                    <br>
-                    <span>&nbsp; 最新测试版<a class="url-text" href="https://realms.gg/zigcs5s7f55gYFk">限时活动</a> 10人</span>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="laber-box-panel" style="background-color: rgba(255, 64, 64, 0.3);">
-            <div class="laber-box">
-            	<span>违反用户使用协议，非法盗用材质包等。</span>
-            	<br>
-                <h2 style="text-align: center;">
-                    <a class="url-text" href="https://yuanbaohhs.github.io/root/user/blacklist.html" target="_blank">名单列表</a>
-                </h2>
-            </div>
-        </div>
-        <br>
-        <div class="laber-box-panel">
-            <div class="laber-box">
-                <span class="top-text">
-                    推广：
-                </span>
-                <div class="contont-text">
-                    <span>&nbsp; 提供资源转发授权，可发布到其它论坛，需要标明此网页链接即可。请勿设置下载门槛，如付费，付金币等。有关更多信息联系作者。</span>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="laber-box-panel">
-            <div class="laber-box">
-                <span class="top-text">
-                    推荐的内容：
-                </span>
-                <div class="contont-text">
-                    <span>&nbsp; <a class="url-text" href="https://bbk.endyun.ltd/download" target="_blank">MCBE 版本库</a></span>
-                    <br>
-                    <span>&nbsp; <a class="url-text" href="https://learn.microsoft.com/en-us/minecraft/creator/?view=minecraft-bedrock-stable" target="_blank">MC微软官方文档</a></span>
-                    <br>
-                    <span>&nbsp; <a class="url-text" href="https://bedrock.dev/zh" target="_blank">基岩版开发文档-非官方</a></span>
-                    <br>
-                    <span>&nbsp; <a class="url-text" href="https://snowstorm.app/" target="_blank">Snowstorm粒子制作</a></span>
-                    <br>
-                    <span>&nbsp; <a class="url-text" href="https://web.blockbench.net/" target="_blank">Blockbench模型制作</a></span>
-                    <br>
-                    <span>&nbsp; <a class="url-text" href="https://zh.minecraft.wiki/" target="_blank">Minecraft Wiki 中文</a></span>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="laber-box-panel">
-            <div class="laber-box">
-                <span class="top-text">加入内群？</span>
-                <div class="contont-text">
-                    <span>&nbsp; 内群是提供优先测试内容，优先解决用户问题，等。</span>
-                    <br>
-                    <span>&nbsp; 1.爱发电赞助或者是B站充电用户即可加入，以及其他赞助用户。</span>
-                    <br>
-                    <span>&nbsp; 2.提供资源帮助（bug反馈，建议，技术支持，想法）用户，需要管理员审核。</span>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="laber-box-panel">
-            <div class="laber-box">
-                <span class="top-text">企鹅群聊：</span>
-                <div class="contont-text">
-                    <span>&nbsp; 主群 706394714 - 空闲</span>
-                    <br>
-                    <span>&nbsp; 二群 797581774 - 空闲</span>
-                    <br>
-                    <span>&nbsp; 三群 942045535 - 空闲</span>
-                    <br>
-                    <span>&nbsp; 内群 953879510 - 需要认证</span>
-                </div>
-                <span class="top-text">其他：</span>
-                <div class="contont-text">
-                    <span>&nbsp; <a class="url-text" href="https://discord.gg/QmZ4MgqZ">Discord</a></span>
-                    <br>
-                    <span>&nbsp; <a class="url-text" href="https://x.com/yuan60274326?s=09">推特/X</a></span>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div style="display: flex;align-items: center;justify-content: center;">
-            <div class="title-img" style="height: 100px;">
-                <a href="https://yuanbaohhs.github.io/root/">
-                    <img style="width: auto; height: 100px;" src="html-res/csb_faq_parrot_icon.png" alt="">
-                </a>
-            </div>
-        </div>
-        <div class="laber-box-panel" style="height: 30px;background-color: rgba(91, 184, 255, 0.3);">
-            <h2 style="text-align: center; color: #2991f2;"> My Yuanbao <a
-                    href="https://yuanbaohhs.github.io/root/html-mcpack/my-yuanbao.html" target="_blank" style="color: #2991f2;">链接</a>&nbsp; <a
-                    href="https://github.com/Yuanbaohhs/root/" target="_blank" style="color: #2991f2;">Github</a>
-            </h2>
-        </div>
-    </div>
+	<div class="root-panel">
+		<div style="display: flex;align-items: center;justify-content: center;">
+			<div class="title-img">
+				<a href="https://yuanbaohhs.github.io/root/">
+					<img style="width: auto; height: 200px;" src="/root/template/minecraft_cake.png" alt="">
+				</a>
+			</div>
+		</div>
+		<h1 class="label_sx6">hello!</h1>
+		<div class="label_sx2" style="background-color: rgba(91, 184, 255, 0.3);">
+			<div class="label_sx5">
+				<h1 class="label_sx7">欢迎来到首页</h1>
+			</div>
+		</div>
+		<br>
+		<div class="label_sx2">
+			<div class="label_sx5">
+				<div>
+					<span class="label_sx8">
+						最受欢迎的模组：
+					</span>
+					<div class="contont-text">
+						<span>&nbsp; 1.快速搬运<a class="label_sx1" href="https://yuanbaohhs.github.io/root/html-mcpack/info/quick_handling.html">下载</a></span>
+						<br>
+						<span>&nbsp; 2.快速切换视角<a class="label_sx1" href="https://yuanbaohhs.github.io/root/html-mcpack/quick-setting.html">下载</a></span>
+						<br>
+						<span>&nbsp; 3.背包移动<a class="label_sx1" href="https://yuanbaohhs.github.io/root/html-mcpack/info/move_ui.html">下载</a></span>
+						<br>
+						<span>&nbsp; 4.效果增强<a class="label_sx1" href="https://yuanbaohhs.github.io/root/html-mcpack/info/enhanced_effect.html">下载</a></span>
+						<br>
+						<span>&nbsp; 5.背包物品显示</span>
+						<br>
+						<span>&nbsp; 6.强制导出存档<a class="label_sx1" href="https://yuanbaohhs.github.io/root/html-mcpack/info/world_edit_export.html">下载</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="item_sx1">
+			<img src="html-res/csb_faq_parrot_icon.png" class="item-icon" alt="加载失败">
+			<div>
+				<div>
+					<h2 style="line-height: 1px; color: #e4f2ff;">快速搬运</h2>
+					<div style="line-height: 1px;"></div>
+					<p class="contont-text">快速搬运物品，MCPE首款支持快速物品操作。<a class="label_sx1" href="https://yuanbaohhs.github.io/root/html-mcpack/info/quick_handling.html" target="_blank">下载</a>or<a class="label_sx1" href="https://yuanbaohhs.github.io/root/html-mcpack/file/buy-pack.html">授权</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="item_sx1">
+			<img src="html-res/quick_setting_pack_icon.png" class="item-icon" alt="加载失败">
+			<div>
+				<div>
+					<h2 style="line-height: 1px; color: #e4f2ff;">快速切换视角</h2>
+					<div style="line-height: 1px;"></div>
+					<p class="contont-text">快速切换视角，快速修改设置内容。<a class="label_sx1" href="https://yuanbaohhs.github.io/root/html-mcpack/quick-setting.html" target="_blank">下载</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="item_sx1">
+			<img src="/root/html-mcpack/icon/move_ui.png" class="item-icon" alt="加载失败">
+			<div>
+				<div>
+					<h2 style="line-height: 1px; color: #e4f2ff;">背包移动</h2>
+					<div style="line-height: 1px;"></div>
+					<p class="contont-text">打开UI会可以移动攻击，支持兼容超多UI。<a class="label_sx1" href="https://yuanbaohhs.github.io/root/html-mcpack/info/move_ui.html" target="_blank">下载</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="item_sx1">
+			<img src="/root/html-mcpack/icon/enhanced_effect.png" class="item-icon" alt="加载失败">
+			<div>
+				<div>
+					<h2 style="line-height: 1px; color: #e4f2ff;">效果增强</h2>
+					<div style="line-height: 1px;"></div>
+					<p class="contont-text">效果增强，强化游戏体验。<a class="label_sx1" href="https://yuanbaohhs.github.io/root/html-mcpack/info/enhanced_effect.html" target="_blank">下载</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="item_sx1">
+			<img src="/root/html-mcpack/icon/default_empty_icon.png" class="item-icon" alt="加载失败">
+			<div>
+				<div>
+					<h2 style="line-height: 1px; color: #e4f2ff;">强制导出存档</h2>
+					<div style="line-height: 1px;"></div>
+					<p class="contont-text">强制导出存档以及编辑。<a class="label_sx1" href="https://yuanbaohhs.github.io/root/html-mcpack/info/world_edit_export.html" target="_blank">下载</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="item_sx1">
+			<img src="/root/html-mcpack/icon/empty_structure_icon.png" class="item-icon" alt="加载失败">
+			<div>
+				<div>
+					<h2 style="line-height: 1px; color: #e4f2ff;">结构文件</h2>
+					<div style="line-height: 1px;"></div>
+					<p class="contont-text">后缀为mcstructure的结构文件。<a class="label_sx1" href="https://yuanbaohhs.github.io/root/html-mcpack/info/hide_content.html" target="_blank">列表</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="label_sx2">
+			<div class="label_sx5">
+				<span class="label_sx8">
+					反馈与建议
+				</span>
+				<div class="contont-text">
+					<span>&nbsp; 使用资源出现了BUG？如部分功能不可用，或者与其他材质包出现兼容性问题？等</span>
+					<span>&nbsp; 欢迎提供资源包各种各样问题，都可联系作者解决。</span>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="label_sx2" style="height: 30px;">
+			<div>
+				<h2 style="text-align: left;">
+					<a class="label_sx1" href="https://yuanbaohhs.github.io/root/index-res-list.html" target="_blank">查看全部资源项目</a>
+				</h2>
+			</div>
+		</div>
+		<br>
+		<div class="label_sx2" style="height: 30px;">
+			<div>
+				<h2 style="text-align: left;">
+					<a class="label_sx1" href="https://yuanbaohhs.github.io/root/index_fancy_res.html" target="_blank">愚人节版本/娱乐资源包</a>
+				</h2>
+			</div>
+		</div>
+		<br>
+		<div class="label_sx2" style="height: 30px;">
+			<div>
+				<h2 style="text-align: left;">
+					<a class="label_sx1" href="https://yuanbaohhs.github.io/root/copyright.html" target="_blank">资源协议</a>
+				</h2>
+			</div>
+		</div>
+		<br>
+		<div class="label_sx2" style="height: 30px;">
+			<div>
+				<h2 style="text-align: left;">
+					<a class="label_sx1" href="#" target="_blank">实体周边</a>
+				</h2>
+			</div>
+		</div>
+		<br>
+		<div style="display: flex;align-items: center;justify-content: center;">
+			<div class="title-img" style="height: 150px;">
+				<img style="width: auto; height: 150px;" src="/root/template/ender_dragon.png" alt="">
+			</div>
+		</div>
+		<br>
+		<div class="label_sx2">
+			<div class="label_sx5">
+				<span class="label_sx8">加入 Realms 服务器</span>
+				<div class="contont-text">
+					<span>&nbsp; 最新正式版<a class="label_sx1" href="https://realms.gg/Pbn6YoCBG84">资源发布预览</a> 10人</span>
+					<br>
+					<span>&nbsp; 最新测试版<a class="label_sx1" href="https://realms.gg/zigcs5s7f55gYFk">限时活动</a> 10人</span>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="label_sx2" style="background-color: rgba(255, 64, 64, 0.3);">
+			<div class="label_sx5">
+				<span>违反用户使用协议，非法盗用材质包等。</span>
+				<br>
+				<h2 style="text-align: center;">
+					<a class="label_sx1" href="https://yuanbaohhs.github.io/root/user/blacklist.html" target="_blank">名单列表</a>
+				</h2>
+			</div>
+		</div>
+		<br>
+		<div class="label_sx2">
+			<div class="label_sx5">
+				<span class="label_sx8">
+					推广：
+				</span>
+				<div class="contont-text">
+					<span>&nbsp; 提供资源转发授权，可发布到其它论坛，需要标明此网页链接即可。请勿设置下载门槛，如付费，付金币等。有关更多信息联系作者。<a class="label_sx1" href="https://yuanbaohhs.github.io/root/copyright.html" target="_blank">资源保护协议</a></span>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="label_sx2">
+			<div class="label_sx5">
+				<span class="label_sx8">
+					推荐的内容：
+				</span>
+				<div class="contont-text">
+					<span>&nbsp; <a class="label_sx1" href="https://bbk.endyun.ltd/download" target="_blank">MCBE 版本库</a></span>
+					<br>
+					<span>&nbsp; <a class="label_sx1" href="https://learn.microsoft.com/en-us/minecraft/creator/?view=minecraft-bedrock-stable" target="_blank">MC微软官方文档</a></span>
+					<br>
+					<span>&nbsp; <a class="label_sx1" href="https://bedrock.dev/zh" target="_blank">基岩版开发文档-非官方</a></span>
+					<br>
+					<span>&nbsp; <a class="label_sx1" href="https://snowstorm.app/" target="_blank">Snowstorm粒子制作</a></span>
+					<br>
+					<span>&nbsp; <a class="label_sx1" href="https://web.blockbench.net/" target="_blank">Blockbench模型制作</a></span>
+					<br>
+					<span>&nbsp; <a class="label_sx1" href="https://zh.minecraft.wiki/" target="_blank">Minecraft Wiki 中文</a></span>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="label_sx2">
+			<div class="label_sx5">
+				<span class="label_sx8">加入内群/赞助群？</span>
+				<div class="contont-text">
+					<span>&nbsp; 此群是提供优先测试内容，创造更好的交流环境，优先解决用户问题，等。</span>
+					<br>
+					<span>&nbsp; 1.爱发电赞助或者是B站充电用户即可加入，以及其他赞助用户。</span>
+					<br>
+					<span>&nbsp; 2.提供资源帮助（BUG反馈，建议，技术支持，想法）用户，需要管理员审核。</span>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="label_sx2">
+			<div class="label_sx5">
+				<span class="label_sx8">企鹅群聊：</span>
+				<div class="contont-text">
+					<span>&nbsp; 主群 706394714 - 空闲</span>
+					<br>
+					<span>&nbsp; 二群 797581774 - 空闲</span>
+					<br>
+					<span>&nbsp; 三群 942045535 - 空闲</span>
+					<br>
+					<span>&nbsp; 赞助群 953879510 - 需要认证</span>
+				</div>
+				<span class="label_sx8">其他：</span>
+				<div class="contont-text">
+					<span>&nbsp; <a class="label_sx1" href="https://discord.gg/QmZ4MgqZ">Discord</a></span>
+					<br>
+					<span>&nbsp; <a class="label_sx1" href="https://x.com/yuan60274326?s=09">推特/X</a></span>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div style="display: flex;align-items: center;justify-content: center;">
+			<div class="title-img" style="height: 100px;">
+				<a href="https://yuanbaohhs.github.io/root/">
+					<img style="width: auto; height: 100px;" src="html-res/csb_faq_parrot_icon.png" alt="">
+				</a>
+			</div>
+		</div>
+		<div class="label_sx2" style="height: 30px;background-color: rgba(91, 184, 255, 0.3);">
+			<h2 style="text-align: center; color: #2991f2;"> My Yuanbao <a href="https://yuanbaohhs.github.io/root/html-mcpack/my-yuanbao.html" target="_blank" style="color: #2991f2;">链接</a>&nbsp; <a href="https://github.com/Yuanbaohhs/root/" target="_blank" style="color: #2991f2;">Github</a>
+			</h2>
+		</div>
+	</div>
 </body>
 
 </html>
