@@ -1,0 +1,105 @@
+
+.red{
+    color:#fe4c4c;   
+}
+.bult{
+    color:#3498db;   
+}
+/* 基础按钮样式 */
+.btn {
+  display: inline-block;           /* 使链接可以设置宽高 */
+  padding: 5px 10px;             /* 内边距 */
+  text-align: center;             /* 文字居中 */
+  text-decoration: none !important; /* 移除下划线 */
+  font-weight: 600;               /* 加粗字体 */
+  font-size: 16px;                /* 默认字体大小 */
+  border-radius: 5px;             /* 圆角 */
+  cursor: pointer;                /* 手型光标 */
+  transition: all 0.3s ease;      /* 平滑过渡效果 */
+  border: 2px solid transparent;  /* 透明边框预留位置 */
+  user-select: none;              /* 防止文字被选中 */
+}
+
+/* 颜色主题 */
+.btn.primary {
+  background-color: #3498db;      /* 蓝色 */
+  color: white !important;
+}
+.btn.secondary {
+  background-color: #2ecc71;      /* 绿色 */
+  color: white !important;
+}
+.btn.default_url {
+  background-color: #3498dbbc;    /* :( */
+  color: white !important;
+}
+.btn.danger {
+  background-color: #e74c3c;      /* 红色 */
+  color: white !important;
+}
+.btn.light {
+  background-color: #ecf0f1;      /* 浅灰色 */
+  color: #333 !important;
+}
+.btn.dark {
+  background-color: #34495e;      /* 深蓝色 */
+  color: white !important;
+}
+
+/* 轮廓样式 */
+.btn.outline {
+  background-color: transparent;
+}
+.btn.outline.primary {
+  border-color: #3498db;
+  color: #3498db !important;
+}
+.btn.outline.secondary {
+  border-color: #2ecc71;
+  color: #2ecc71 !important;
+}
+.btn.outline.default_url {
+  border-color: #3c87cd;
+  color: #3c87cd !important;
+}
+.btn.outline.danger {
+  border-color: #e74c3c;
+  color: #e74c3c !important;
+}
+
+/* 悬停效果 */
+.btn:hover {
+  transform: translateY(-2px);    /* 轻微上浮 */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* 添加阴影 */
+}
+
+/* 激活/点击效果 */
+.btn:active {
+  transform: translateY(1px);     /* 按下效果 */
+  box-shadow: none;
+}
+
+/* 尺寸选项 */
+.btn.default {
+    padding: 0px 2px;
+    font-size: 12px;
+  }
+.btn.small {
+  padding: 1px 2px;
+  font-size: 14px;
+}
+.btn.large {
+  padding: 15px 30px;
+  font-size: 18px;
+}
+.btn.block {
+  display: block;                /* 块级按钮 */
+  width: 100%;                   /* 填充容器 */
+}
+
+/* 禁用状态 */
+.btn.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: none;
+}
