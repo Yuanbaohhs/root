@@ -51,8 +51,8 @@
   background-color: transparent;
 }
 .btn.outline.primary {
-  border-color: #3498db;
   color: #3498db !important;
+  border-color: #3498db;
 }
 .btn.outline.secondary {
   border-color: #2ecc71;

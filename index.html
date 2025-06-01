@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>仿生像素 Biomimetic pixel</title>
     <link rel="stylesheet" href="template/new_default.css">
+    <link rel="stylesheet" href="template/style_view.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Quicksand&dispaly=swap');
 
@@ -112,9 +113,16 @@
 </head>
 
 <body>
+    <script>
+        function showMessage() {
+            alert('欢迎回来')
+        }
+    </script>
     <div class="root-panel">
-        
-    <!--
+
+
+        <button onclick="showMessage()">交互按钮</button>
+
         <a href="#" class="btn primary">主要按钮</a>
         <a href="#" class="btn outline primary">轮廓按钮</a>
         <a href="#" class="btn small secondary">小按钮</a>
@@ -122,19 +130,105 @@
         <a href="#" class="btn large danger">大按钮</a>
         <a href="#" class="btn block dark">块级按钮</a>
         <a href="#" class="btn light disabled">禁用按钮</a>
-    -->
-        
-        <div style="display: flex;align-items: center;justify-content: center;">
-            <div class="title-img">
-                <a href="https://yuanbaohhs.github.io/root/">
-                    <img style="width: auto; height: 200px;" src="/root/template/minecraft_cake.png" alt="">
-                </a>
+        <br>
+
+        <div class="root_box_container">
+            <div class="info_box primary">
+                <div class="header">
+                    <div>
+                        <img class="info_box_img" fill="none" viewBox="0 0 24 24"
+                            src="html-mcpack/icon/default_empty_icon.png" alt="">
+                    </div>
+                    <div class="info_box_content">
+                        <span class="info_box_title">标题</span>
+                        <p class="info_box_message">内容aaaaaaaaaaaaaaaaaaaaaaa</p>
+                    </div>
+                    <div>
+                        <a class="info_box_url" href="#">链接1</a>
+                        <a class="info_box_url" href="#">链接2</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div style="display: flex;align-items: center;justify-content: center;">
+                <div class="title-img">
+                    <a href="https://yuanbaohhs.github.io/root/">
+                        <img style="width: auto; height: 200px;" src="/root/template/minecraft_cake.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="info_box primary">
+                <div class="header">
+                    <div>
+                        <img class="info_box_img" fill="none" viewBox="0 0 24 24" src="html-res/csb_faq_parrot_icon.png"
+                            alt="">
+                    </div>
+                    <div class="info_box_content">
+                        <span class="info_box_title">快速搬运</span>
+                        <p class="info_box_message">快速搬运物品或指定物品，拥有多种快捷操作，支持多设备使用，MCPE首款支持快速物品操作。</p>
+                    </div>
+                    <div>
+                        <a class="info_box_url" href="html-mcpack/file/快速搬运 v9.8b-2504072149.mcpack">下载</a>
+                        <a class="info_box_url" href="html-mcpack/info/quick_handling.html">历史版本</a>
+                    </div>
+                </div>
+            </div>
+            <div class="info_box primary">
+                <div class="header">
+                    <div>
+                        <img class="info_box_img" fill="none" viewBox="0 0 24 24"
+                            src="html-res/quick_setting_pack_icon.png" alt="">
+                    </div>
+                    <div class="info_box_content">
+                        <span class="info_box_title">快速切换视角</span>
+                        <p class="info_box_message">适用于旧版没有切换视角的Minecraft的游戏版本。</p>
+                    </div>
+                    <div>
+                        <a class="info_box_url" href="html-mcpack/快速切换视角 v10.mcpack">下载</a>
+                        <a class="info_box_url" href="html-mcpack/quick-setting.html">历史版本</a>
+                    </div>
+                </div>
+            </div>
+            <div class="info_box primary">
+                <div class="header">
+                    <div>
+                        <img class="info_box_img" fill="none" viewBox="0 0 24 24" src="html-mcpack/icon/move_ui.png"
+                            alt="">
+                    </div>
+                    <div class="info_box_content">
+                        <span class="info_box_title">背包移动</span>
+                        <p class="info_box_message">打开背包等一些容器时仍然可以移动攻击等操作。适用于触屏玩家使用。</p>
+                    </div>
+                    <div>
+                        <a class="info_box_url" href="html-mcpack/file/背包移动 v6.5.mcpack">下载</a>
+                        <a class="info_box_url" href="html-mcpack/info/move_ui.html">历史版本</a>
+                    </div>
+                </div>
             </div>
         </div>
+        <br>
+
+
+        <div>
+            <dl>
+                <dt class="copyright_text">© 2024-2025 Yuanbao（园宝）资源下载站。</dt>
+                <dt class="copyright_text"><a style="text-decoration: none !important;"
+                        href="https://github.com/Yuanbaohhs/">Github仓库</a>
+                <dt>
+            </dl>
+        </div>
+
+
+
+
+
+
         <h1 class="label_sx6">hello!</h1>
         <div class="label_sx2" style="background-color: rgba(91, 184, 255, 0.3);">
             <div class="label_sx5">
-                <h1 class="label_sx7">欢迎来到首页</h1>
+                <h1 class="label_sx7">欢迎回来</h1>
             </div>
         </div>
         <br>
@@ -284,8 +378,7 @@
         <div class="label_sx2" style="height: 30px;">
             <div>
                 <h2 style="text-align: left;">
-                    <a class="bult" href="https://yuanbaohhs.github.io/root/copyright.html"
-                        target="_blank">资源协议</a>
+                    <a class="bult" href="https://yuanbaohhs.github.io/root/copyright.html" target="_blank">资源协议</a>
                 </h2>
             </div>
         </div>
@@ -308,9 +401,11 @@
             <div class="label_sx5">
                 <span class="label_sx8">加入 Realms 服务器</span>
                 <div class="contont-text">
-                    <span>&nbsp; 最新正式版<a class="btn default default_url" href="https://realms.gg/Pbn6YoCBG84">资源发布预览</a> 10人</span>
+                    <span>&nbsp; 最新正式版<a class="btn default default_url" href="https://realms.gg/Pbn6YoCBG84">资源发布预览</a>
+                        10人</span>
                     <br>
-                    <span>&nbsp; 最新测试版<a class="btn default default_url" href="https://realms.gg/zigcs5s7f55gYFk">限时活动</a> 10人</span>
+                    <span>&nbsp; 最新测试版<a class="btn default default_url"
+                            href="https://realms.gg/zigcs5s7f55gYFk">限时活动</a> 10人</span>
                 </div>
             </div>
         </div>
@@ -320,8 +415,7 @@
                 <span>违反用户使用协议，非法盗用材质包等。</span>
                 <br>
                 <h2 style="text-align: center;">
-                    <a class="red" href="https://yuanbaohhs.github.io/root/user/blacklist.html"
-                        target="_blank">名单列表</a>
+                    <a class="red" href="https://yuanbaohhs.github.io/root/user/blacklist.html" target="_blank">名单列表</a>
                 </h2>
             </div>
         </div>
@@ -344,7 +438,8 @@
                     推荐的内容：
                 </span>
                 <div class="contont-text">
-                    <span>&nbsp; <a class="btn default default_url" href="https://bbk.endyun.ltd/download" target="_blank">MCBE
+                    <span>&nbsp; <a class="btn default default_url" href="https://bbk.endyun.ltd/download"
+                            target="_blank">MCBE
                             版本库</a></span>
                     <br>
                     <span>&nbsp; <a class="btn default default_url"
@@ -360,7 +455,8 @@
                     <span>&nbsp; <a class="btn default default_url" href="https://web.blockbench.net/"
                             target="_blank">Blockbench模型制作</a></span>
                     <br>
-                    <span>&nbsp; <a class="btn default default_url" href="https://zh.minecraft.wiki/" target="_blank">Minecraft Wiki
+                    <span>&nbsp; <a class="btn default default_url" href="https://zh.minecraft.wiki/"
+                            target="_blank">Minecraft Wiki
                             中文</a></span>
                 </div>
             </div>
@@ -393,26 +489,13 @@
                 </div>
                 <span class="label_sx8">其他：</span>
                 <div class="contont-text">
-                    <span>&nbsp; <a class="btn default default_url" href="https://discord.gg/QmZ4MgqZ">Discord</a></span>
+                    <span>&nbsp; <a class="btn default default_url"
+                            href="https://discord.gg/QmZ4MgqZ">Discord</a></span>
                     <br>
-                    <span>&nbsp; <a class="btn default default_url" href="https://x.com/yuan60274326?s=09">推特/X</a></span>
+                    <span>&nbsp; <a class="btn default default_url"
+                            href="https://x.com/yuan60274326?s=09">推特/X</a></span>
                 </div>
             </div>
-        </div>
-        <br>
-        <div style="display: flex;align-items: center;justify-content: center;">
-            <div class="title-img" style="height: 100px;">
-                <a href="https://yuanbaohhs.github.io/root/">
-                    <img style="width: auto; height: 100px;" src="html-res/csb_faq_parrot_icon.png" alt="">
-                </a>
-            </div>
-        </div>
-        <div class="label_sx2" style="height: 30px;background-color: rgba(91, 184, 255, 0.3);">
-            <h2 style="text-align: center; color: #2991f2;"> My Yuanbao <a
-                    href="https://yuanbaohhs.github.io/root/html-mcpack/my-yuanbao.html" target="_blank"
-                    style="color: #2991f2;">链接</a>&nbsp; <a href="https://github.com/Yuanbaohhs/root/" target="_blank"
-                    style="color: #2991f2;">Github</a>
-            </h2>
         </div>
     </div>
 </body>
