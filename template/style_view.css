@@ -23,6 +23,11 @@
     background-color: #ffffff;
 }
 
+.info_box.x01 {
+    background-color: #ff8383;
+}
+
+
 .info_box.preview {
     background-color: #ffffff24;
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0), 0 10px 10px -5px rgba(0, 0, 0, 0);
