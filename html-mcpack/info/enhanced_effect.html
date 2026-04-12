@@ -6,18 +6,25 @@
 	<meta http-equiv="X-UA-Compatle" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>效果增强</title>
-	<link rel="stylesheet" href="/template/default.css">
-	<link rel="stylesheet" href="/template/new_default.css">
+	<link rel="stylesheet" href="/template/style_view.css">
 	<style>
-		.root-panel {
-			max-width: 700px;
-			height: auto;
-		}
-		
+		@import url('https://fonts.googleapis.com/css2?family=Quicksand&dispaly=swap');
+
 		body {
+			font-family: 'Quicksand', sans-serif;
+			background-color: #ddd;
 			display: flex;
 			align-items: center;
 			justify-content: center;
+		}
+
+		.root-panel {
+			max-width: 700px;
+		}
+
+		.title-img {
+			width: auto;
+			height: 200px;
 		}
 	</style>
 </head>
@@ -25,187 +32,109 @@
 <body>
 
 	<div class="root-panel">
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<h1 class="top-text">效果增强历史版本<a class="bult" href="https://yuanbaohhs.github.io/root/" target="_blank">返回</a></h1>
-			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">企鹅群聊：</span>
-				<div class="contont-text">
-					<span>&nbsp; 主群 706394714 - 空闲</span>
-					<br>
-					<span>&nbsp; 二群 797581774 - 空闲</span>
-					<br>
-					<span>&nbsp; 三群 942045535 - 空闲</span>
-					<br>
-					<span>&nbsp; 内群 953879510 - 需要认证</span>
-				</div>
-				<span class="top-text">其他：</span>
-				<div class="contont-text">
-					<span>&nbsp; <a class="btn default default_url" href="https://discord.gg/QmZ4MgqZ">Discord</a></span>
-					<br>
-					<span>&nbsp; <a class="btn default default_url" href="https://x.com/yuan60274326?s=09">推特/X</a></span>
+		<div class="root_box_container">
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">效果增强历史版本</span>
+					</div>
+					<a class="info_box_url" href="https://yuanbaohhs.github.io/root/">返回</a>
 				</div>
 			</div>
-		</div>
-		<br>
-		<img src="/root/html-mcpack/icon/enhanced_effect.png" class="item-icon" alt="加载失败">
-		<div class="default-text">
-			<h3>UI效果增强</h3>
-			<h4 class="contont-text">&nbsp; 1.聊天栏快捷帮助按钮。</h4>
-			<h4 class="contont-text">&nbsp; 2.一键复读按钮。</h4>
-			<h4 class="contont-text">&nbsp; 3.铁砧换行功能。</h4>
-			<h4 class="contont-text">&nbsp; 4.结构方块导入导出功能。</h4>
-			<h4 class="contont-text">&nbsp; 5.一键合成与快速合成。</h4>
-			<h4 class="contont-text">&nbsp; 6.快速交易。</h4>
-			<h4 class="contont-text">&nbsp; 7.存档导出导入功能。</h4>
-			<h4 class="contont-text">&nbsp; 8.一键平分物品。</h4>
-			<h4 class="contont-text">&nbsp; 9.HUD界面细节优化。</h4>
-			<h3>共存</h3>
-			<h4 class="contont-text">与快速搬运 v9.7以上版本一起使用可激活更多功能。</h4>
-
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">B站介绍视频</span>
-				<div class="contont-text">
-					<a class="bult" href="https://b23.tv/90TK07Y">v3.7</a>
-				</div>
-			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">v4.0a <span class="top-text-v">2025.5.11  562.58K</span><a class="btn default default_url" href="/html-mcpack/file/效果增强 v4.0a.mcpack" target="_blank">下载</a></span>
-				<div class="contont-text">
-					<span>&nbsp; 1.修复原版在存档中无法删除行为包/资源包的BUG。</span>
-				</div>
-			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">v4.0-2503230136 <span class="top-text-v">2025.3.23  560.0KB</span><a class="btn default default_url" href="/html-mcpack/file/效果增强 v4.0-0323136.mcpack" target="_blank">下载</a></span>
-				<div class="contont-text">
-					<span>&nbsp; 1.修复一个BUG。</span>
-				</div>
-			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">第四代 <span class="top-text-v">2025.2.26</span><a class="btn default default_url" href="/html-mcpack/file/效果增强 v4.mcpack" target="_blank">下载</a></span>
-				<div class="contont-text">
-					<span>&nbsp; 1.添加谜之炖菜效果显示。</span>
-					<br>
-					<span>&nbsp; 2.UI调整，修复一些BUG。</span>
-					<br>
-					<div class="box-img">
-						<div>
-							<img class="box-img-file" src="/root/template/013.png" alt="">
-						</div>
+			<div class="info_box primary">
+				<div class="header">
+					<div>
+						<img class="info_box_img large" fill="none" viewBox="0 0 24 24"
+							src="https://yuanbaohhs.github.io/root/html-res/enhanced_effect_icon.png" alt="">
+					</div>
+					<div class="info_box_content">
+						<span class="info_box_title">快速搬运</span>
 					</div>
 				</div>
 			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">v3.7b <span class="top-text-v">2025.2.16</span><a class="btn default default_url" href="/html-mcpack/file/效果增强 v3.7b.mcpack" target="_blank">下载</a></span>
-				<div class="contont-text">
-					<span>&nbsp; 1.修复物品高亮无法正常显示BUG。</span>
-				</div>
-			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">v3.7 <span class="top-text-v">???</span></span>
-				<div class="contont-text">
-					<span>&nbsp; 1.添加喷射合成，需要使用搜索框。</span>
-				</div>
-			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">v3.5a <span class="top-text-v">2025.1.18</span><a class="btn default default_url" href="/html-mcpack/file/效果增强 v3.5a.mcpack" target="_blank">下载</a></span>
-				<div class="contont-text">
-					<span>&nbsp; 1.添加合成丢弃功能</span>
-					<br>
-					<span>&nbsp; 2.添加一个物品合成和一组物品合成</span>
-					<br>
-					<span>&nbsp; 3.修复一些BUG</span>
-				</div>
-			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">第三代 <span class="top-text-v">2024.11.24</span><a class="btn default default_url" href="/html-mcpack/file/效果增强 v3.mcpack" target="_blank">下载</a></span>
-				<div class="contont-text">
-					<span>&nbsp; 1.优化日志报错问题</span>
-					<br>
-					<span>&nbsp; 2.兼容性优化</span>
-					<br>
-					<span>&nbsp; 3.铁砧命名功能强化</span>
-					<br>
-					<span>&nbsp; 4.去除物品等级高亮</span>
-					<br>
-					<span>&nbsp; 5.修复一些BUG</span>
-					<br>
-					<span>&nbsp; 6.流畅性提升</span>
-					<div class="box-img">
-						<div>
-							<img class="box-img-file" src="/template/00a.png" alt="">
-						</div>
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">B站介绍视频</span>
+					</div>
+					<div>
+						<a class="info_box_url" href="https://b23.tv/90TK07Y">v3.7</a>
 					</div>
 				</div>
 			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">v2.5 <span class="top-text-v">???</span></span>
-				<div class="contont-text">
-					<span>&nbsp; 1.加入物品平分功能</span>
+			<div class="info_box preview">
+				<div class="header">
+					<div class="info_box_content">
+						<p class="info_box_message">1.聊天栏快捷帮助按钮。</p>
+						<p class="info_box_message">2.一键复读按钮。</p>
+						<p class="info_box_message">3.铁砧换行功能。</p>
+						<p class="info_box_message">4.结构方块导入导出功能。</p>
+						<p class="info_box_message">5.一键合成与快速合成。</p>
+						<p class="info_box_message">6.快速交易。</p>
+						<p class="info_box_message">7.存档导出导入功能。</p>
+						<p class="info_box_message">8.HUD界面细节优化。</p>
+					</div>
 				</div>
 			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">v2.2 <span class="top-text-v">2024.10.29</span></span>
-				<div class="contont-text">
-					<span>&nbsp; 1.添加结构方块导入导出功能</span>
-					<br>
-					<span>&nbsp; 2.添加存档导入导出功能</span>
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">当前最新版 : v4.0b</span>
+					</div>
+					<div>
+						<a class="info_box_url"
+							href="/html-mcpack/file/效果增强 v4.0b.mcpack">下载</a>
+						<br>
+					</div>
 				</div>
 			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">第二代 <span class="top-text-v">2024.10.28</span></span>
-				<div class="contont-text">
-					<span>&nbsp; 1.添加快速交易</span>
-					<br>
-					<span>&nbsp; 2.UI布局修改</span>
-					<br>
-					<span>&nbsp; 3.字体修正</span>
+			<div class="info_box preview">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">以下是历史版本</span>
+					</div>
 				</div>
 			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">第一代 <span class="top-text-v">2024.5.20</span></span>
-				<div class="contont-text">es1	
-					<span>&nbsp; 1.添加一键合成与快速合成</span>
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">v4.0b<span class="info_box_title subtitle"> 2026.2.27 0.56MB</span></span>
+						<p class="info_box_message">1.对反馈的BUG进行修复。</p>
+					</div>
+					<div>
+						<a class="info_box_url"
+							href="/html-mcpack/file/效果增强 v4.0b.mcpack">下载</a>
+					</div>
+				</div>
+			</div>
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">v4.0a<span class="info_box_title subtitle"> 2025.5.11 562.58K</span></span>
+						<p class="info_box_message">1.修复原版在存档中无法删除行为包/资源包的BUG。</p>
+					</div>
+					<div>
+						<a class="info_box_url"
+							href="/html-mcpack/file/效果增强 v4.0a.mcpack">下载</a>
+					</div>
+				</div>
+			</div>
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">第四代<span class="info_box_title subtitle"> 2025.2.26</span></span>
+						<p class="info_box_message">1.添加谜之炖菜效果显示。</p>
+						<p class="info_box_message">2.UI调整，修复一些BUG。</p>
+					</div>
+					<div>
+						<img class="info_box_content_img" src="/template/013.png"
+							alt="">
+					</div>
+					<br>
+					<div>
+						<a class="info_box_url"
+							href="/html-mcpack/file/效果增强 v4.mcpack">下载</a>
+					</div>
 				</div>
 			</div>
 		</div>
