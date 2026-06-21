@@ -6,18 +6,25 @@
 	<meta http-equiv="X-UA-Compatle" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>快速切换视角</title>
-	<link rel="stylesheet" href="/template/default.css">
-	<link rel="stylesheet" href="/template/new_default.css">
+	<link rel="stylesheet" href="/template/style_view.css">
 	<style>
-		.root-panel {
-			max-width: 700px;
-			height: auto;
-		}
-		
+		@import url('https://fonts.googleapis.com/css2?family=Quicksand&dispaly=swap');
+
 		body {
+			font-family: 'Quicksand', sans-serif;
+			background-color: #ddd;
 			display: flex;
 			align-items: center;
 			justify-content: center;
+		}
+
+		.root-panel {
+			max-width: 700px;
+		}
+
+		.title-img {
+			width: auto;
+			height: 200px;
 		}
 	</style>
 </head>
@@ -25,157 +32,175 @@
 <body>
 
 	<div class="root-panel">
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<h1 class="top-text">快速切换视角历史版本<a class="bult" href="https://yuanbaohhs.github.io/root/" target="_blank">返回</a></h1>
-			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">企鹅群聊：</span>
-				<div class="contont-text">
-					<span>&nbsp; 主群 706394714 - 空闲</span>
-					<br>
-					<span>&nbsp; 二群 797581774 - 空闲</span>
-					<br>
-					<span>&nbsp; 三群 942045535 - 空闲</span>
-					<br>
-					<span>&nbsp; 内群 953879510 - 需要认证</span>
-				</div>
-				<span class="top-text">其他：</span>
-				<div class="contont-text">
-					<span>&nbsp; <a class="btn default default_url" href="https://discord.gg/QmZ4MgqZ">Discord</a></span>
-					<br>
-					<span>&nbsp; <a class="btn default default_url" href="https://x.com/yuan60274326?s=09">推特/X</a></span>
+		<div class="root_box_container">
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">快速切换视角历史版本</span>
+					</div>
+					<a class="info_box_url" href="https://yuanbaohhs.github.io/root/">返回</a>
 				</div>
 			</div>
-		</div>
-		<br>
-		<img src="https://yuanbaohhs.github.io/root/html-res/quick_setting_pack_icon.png" class="item-icon" alt="加载失败">
-		<div class="default-text">
-			<h3>快速切换视角，快速修改设置</h3>
-			<h4 class="contont-text">&nbsp; 1.超多的效果内容。</h4>
-			<h4 class="contont-text">&nbsp; 2.可以一键修改图形模式。</h4>
-			<h4 class="contont-text">&nbsp; 3.添加关闭水印按钮。</h4>
-			<h4 class="contont-text">&nbsp; 4.支持按钮拖动。</h4>
-			<h3>适配</h3>
-			<h4 class="contont-text">&nbsp; 1.极大改善兼容情况。</h4>
-			<h3>兼容</h3>
-			<h4 class="contont-text">第六代以下版本支持 1.19.40 - 1.20.30之间的的版本，之外的版本需要第六代以上版本使用。</h4>
-
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">B站介绍视频</span>
-				<div class="contont-text">
-					<span>&nbsp; <a class="bult" href="https://b23.tv/fhq1eQl">第十代测试</a></span>
-
+			<div class="info_box primary">
+				<div class="header">
+					<div>
+						<img class="info_box_img large" fill="none" viewBox="0 0 24 24"
+							src="https://yuanbaohhs.github.io/root/html-res/quick_setting_pack_icon.png" alt="">
+					</div>
+					<div class="info_box_content">
+						<span class="info_box_title">快速切换视角&快速设置</span>
+					</div>
 				</div>
 			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">第十代 <span class="top-text-v">2024.8.17</span><a class="btn default default_url" href="https://yuanbaohhs.github.io/root/file/快速切换视角 v10.mcpack" target="_blank">下载</a></span>
-				<div class="contont-text">
-					<span>&nbsp; 1.添加自定义按钮位置开关</span>
-					<br>
-					<span>&nbsp; 2.优化显示内容</span>
-					<br>
-					<span>&nbsp; 3.优化显示风格</span>
-					<br>
-					<span>&nbsp; 4.添加快速模式</span>
-					<br>
-					<span>&nbsp; 5.减少卡顿情况</span>
-					<br>
-					<span>&nbsp; 6.流畅性提升</span>
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">B站介绍视频</span>
+					</div>
+					<div>
+						<a class="info_box_url" href="https://b23.tv/fhq1eQl">v10</a>
+					</div>
 				</div>
 			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">v8.6 <span class="top-text-v">2024.1.17</span></span>
+			<div class="info_box preview">
+				<div class="header">
+					<div class="info_box_content">
+						<p class="info_box_message">快速切换视角，快速修改设置</p>
+						<p class="info_box_message">快捷修改游戏模式</p>
+						<p class="info_box_message">需要进游戏中打开设置使用</p>
+						<p class="info_box_message">快速修改渲染图形，添加去除测试版&预览版水印功能</p>
+						<p class="info_box_message">v6以下版本支持 1.19.40 - 1.20.30之间的的版本，之外的版本需要v6以上版本使用</p>
+					</div>
+				</div>
 			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">v8.5 <span class="top-text-v">2023.12.16</span></span>
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">当前最新版</span>
+					</div>
+					<div>
+						<a class="info_box_url"
+							href="https://yuanbaohhs.github.io/root/html-mcpack/file/快速设置 v11.mcpack">v11
+							适用于新版有切换视角按钮的Minecraft</a>
+						<br>
+					</div>
+					<div>
+						<a class="info_box_url"
+							href="https://yuanbaohhs.github.io/root/html-mcpack/file/快速切换视角 v10.mcpack">v10
+							适用于旧版没有切换视角按钮的Minecraft</a>
+						<br>
+					</div>
+				</div>
 			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">第八代 <span class="top-text-v">2023.11.9</span></span>
+			<div class="info_box preview">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">以下是历史版本</span>
+					</div>
+				</div>
 			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">v7.5 <span class="top-text-v">2023.11.6</span></span>
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">v11<span class="info_box_title subtitle"> 2025.4.4</span></span>
+						<p class="info_box_message">去除切换视角后的版本，强化其他快速切换内容。适用于新版MC。</p>
+					</div>
+				</div>
 			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">第七代 <span class="top-text-v">2023.11.5</span></span>
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">v10<span class="info_box_title subtitle"> 2024.8.17</span></span>
+						<p class="info_box_message">修复很多BUG</p>
+					</div>
+				</div>
 			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel" style=" background-color: rgba(185, 0, 0, 0.454);">
-			<div class="laber-box">
-				<span class="top-text">不在支持1.19.30-1.20.30之间的版本使用！</span>
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">v8.6<span class="info_box_title subtitle"> 2024.1.17</span></span>
+					</div>
+				</div>
 			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">第六代 <span class="top-text-v">2023.10.20</span></span>
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">v8.5<span class="info_box_title subtitle"> 2024.1.16</span></span>
+					</div>
+				</div>
 			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">v5.5 <span class="top-text-v">2023.7.12</span></span>
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">v8<span class="info_box_title subtitle"> 2023.11.9</span></span>
+					</div>
+				</div>
 			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">v4.5 <span class="top-text-v">2023.7.9</span></span>
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">v7<span class="info_box_title subtitle"> 2023.11.5</span></span>
+						<p class="info_box_message">由于MC版本差异此版本之后不再需要在进入世界前打开设置，需要进入世界后再打开设置进行覆盖。</p>
+					</div>
+				</div>
 			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">第四代 <span class="top-text-v">2023.7.8</span></span>
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">v6<span class="info_box_title subtitle"> 2023.10.20</span></span>
+						<p class="info_box_message">优化，人性化操作</p>
+					</div>
+				</div>
 			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">第三代 <span class="top-text-v">2023.7.6</span></span>
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">v5.5<span class="info_box_title subtitle"> 2023.7.12</span></span>
+					</div>
+				</div>
 			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">第二代 <span class="top-text-v">2023.7.5</span></span>
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">v4.5<span class="info_box_title subtitle"> 2023.7.9</span></span>
+					</div>
+				</div>
 			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">v1.7 <span class="top-text-v">2023.7.5</span></span>
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">v4<span class="info_box_title subtitle"> 2023.7.8</span></span>
+					</div>
+				</div>
 			</div>
-		</div>
-		<br>
-		<div class="laber-box-panel">
-			<div class="laber-box">
-				<span class="top-text">第一代 <span class="top-text-v">2023.7.4</span></span>
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">v3<span class="info_box_title subtitle"> 2023.7.6</span></span>
+					</div>
+				</div>
+			</div>
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">v2<span class="info_box_title subtitle"> 2023.7.5</span></span>
+					</div>
+				</div>
+			</div>
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">v1.7<span class="info_box_title subtitle"> 2023.7.5</span></span>
+					</div>
+				</div>
+			</div>
+			<div class="info_box primary">
+				<div class="header">
+					<div class="info_box_content">
+						<span class="info_box_title">v1<span class="info_box_title subtitle"> 2023.7.4</span></span>
+						<p class="info_box_message">初代（进入MC直接打开设置使用，并非进入世界后使用）</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
